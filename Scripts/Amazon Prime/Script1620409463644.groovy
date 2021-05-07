@@ -23,21 +23,19 @@ WebUI.navigateToUrl('https://www.amazon.com.tr/')
 
 WebUI.click(findTestObject('Object Repository/AmazonPrime/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/input_Ne yazk ki erez tercihleriniz kaydedi_db1643'))
 
-WebUI.click(findTestObject('Object Repository/AmazonPrime/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/a_Engelli Mteri Destei_nav-imageHref'))
+WebUI.click(findTestObject('Object Repository/AmazonPrime/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/a_Prime'))
 
-WebUI.click(findTestObject('Object Repository/AmazonPrime/Page_Amazon.com.tr Amazon Prime yelerine ze_79d71b/span_Amazon Primea ye ol'))
+WebUI.click(findTestObject('Object Repository/AmazonPrime/Page_Amazon.com.tr Amazon Prime/input_CRETSZ_a-button-input'))
 
 WebUI.setText(findTestObject('Object Repository/AmazonPrime/Page_Amazon Giri Yap/input_E-posta adresi veya telefon numaras_email'), 
     'mohamed.2.kassem95@gmail.com')
-
-WebUI.click(findTestObject('Object Repository/AmazonPrime/Page_Amazon Giri Yap/input_E-posta adresinizi veya cep telefonu _e246cd'))
 
 WebUI.setEncryptedText(findTestObject('Object Repository/AmazonPrime/Page_Amazon Giri Yap/input_ifremi unuttum_password'), 
     'yYCHQKrnkaEeSW8wnmcRVA==')
 
 WebUI.click(findTestObject('Object Repository/AmazonPrime/Page_Amazon Giri Yap/input_ifrenizi girin_signInSubmit'))
 
-WebUI.click(findTestObject('Object Repository/AmazonPrime/Page_Amazon.com.tr Amazon Prime yelerine ze_79d71b/span_Hayr, teekkrler'))
+WebUI.click(findTestObject('Object Repository/AmazonPrime/Page_Amazon Prime/span_Hayr, teekkrler'))
 
 WebUI.closeBrowser()
 
