@@ -21,19 +21,38 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.amazon.com.tr/')
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/AddItemToCart(CokSatanlar)/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/input_Ne yazk ki erez tercihleriniz kaydedi_db1643'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/AddItemToCart(CokSatanlar)/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/a_ok Satanlar'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/AddItemToCart(CokSatanlar)/Page_Amazon.com.tr ok Satanlar Amazondaki e_ae023c/img_Salk ve Bakm Kategorisinde ok Satanlar _cce84e'))
+
+WebUI.delay(2)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/AddItemToCart(CokSatanlar)/Page_Xiaomi Mi Body Composition Scale 2 Tar_10bf2f/select_123456789101112131415'), 
+    '2', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/AddItemToCart(CokSatanlar)/Page_Xiaomi Mi Body Composition Scale 2 Tar_10bf2f/select_123456789101112131415'), 
+    '15', true)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/AddItemToCart(CokSatanlar)/Page_Xiaomi Mi Body Composition Scale 2 Tar_10bf2f/select_123456789101112131415'), 
+    '1', true)
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/AddItemToCart(CokSatanlar)/Page_Xiaomi Mi Body Composition Scale 2 Tar_10bf2f/input_Miktar_submit.add-to-cart'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/AddItemToCart(CokSatanlar)/Page_Amazon.com.tr Alveri Sepeti/a_Alveri Sepeti'))
 
-WebUI.click(findTestObject('Object Repository/AddItemToCart(CokSatanlar)/Page_Amazon.com.tr Alveri Sepeti/a_.com.tr'))
-
-WebUI.click(findTestObject('Object Repository/AddItemToCart(CokSatanlar)/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/span_ve Sipariler_nav-cart-icon nav-sprite'))
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 
