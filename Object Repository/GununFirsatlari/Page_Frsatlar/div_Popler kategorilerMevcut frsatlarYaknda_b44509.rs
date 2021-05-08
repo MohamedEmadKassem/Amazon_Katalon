@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Popler kategorilerMevcut frsatlarYaknda_b44509</name>
+   <tag></tag>
+   <elementGuidId>ee986e40-1472-4dfd-8883-d6491eae5740</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='slot-15']/div/div/div[3]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.GridFilters-module__gridFilterSection_36xNFAVppWfx4i4otzVc2Y</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Fırsat filtreleri</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>GridFilters-module__gridFilterSection_36xNFAVppWfx4i4otzVc2Y</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>grid-filters-container</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Popüler kategorilerMevcut fırsatlarYakında başlayacaklarSüresi dolanlarİzleme ListesiPrimePrime teslimatKategorilerAydınlatmaBahçeBebekBebek GiyimBebek Seyahat ÜrünleriBilgisayarBilgisayar AksesuarlarıÇantaCep TelefonlarıCep Telefonları ve AksesuarlarDeterjan ve Temizlik ÜrünleriDizüstü BilgisayarlarElektronikErkek AyakkabıErkek Çocuk KıyafetErkek KıyafetEv Sineması ve TelevizyonEv ve YaşamEvcil Hayvan ÜrünleriFotoğraf ve KameraGiyilebilir TeknolojiGıda ve İçecekHoparlörlerKadın AyakkabıKadın KıyafetKişisel Bakım ve KozmetikKitapKız Çocuk KıyafetKüçük Mutfak AletleriKulaklıklarModaMonitörlerMutfakMüzik Enstrümanları ve DJOfis ve KırtasiyeOyuncakSağlık ve BakımSpor ve OutdoorTencereler ve TavalarÜtülerVeri DepolamaVideo Oyunu ve KonsolYapı MarketFırsat türüPopüler kategorilerBüyük FırsatBitmeden Yakala! Fırsatıİndirimli ÜrünlerFiyatTümü₺20 altı₺20 - ₺100₺100 - ₺200₺200 - ₺500₺500 ve Üstüİndirim OranıPopüler kategoriler%10 veya daha fazla indirim%20 veya daha fazla indirim%30 veya daha fazla indirim%50 veya daha fazla indirimOrtalama Müşteri Yorumuve üstüve üstüve üstüve üstü</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;slot-15&quot;)/div[@class=&quot;deals-react-app&quot;]/div[@class=&quot;a-row GridContainer-module__gridContainer_1gdX46IKefSs6Lz4O4a3fj largeDevice&quot;]/div[@class=&quot;a-row GridContainer-module__gridMainContainer_24aSWvAi-VAzH5okoDOqpb&quot;]/div[@class=&quot;GridFilters-module__gridFilterSection_36xNFAVppWfx4i4otzVc2Y&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='slot-15']/div/div/div[3]/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Öne çıkanlar'])[2]/following::div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sıralama ölçütü:'])[2]/following::div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[16]/div/div/div/div/div[3]/div</value>
+   </webElementXpaths>
+</WebElementEntity>
