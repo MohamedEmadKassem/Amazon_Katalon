@@ -21,32 +21,58 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.amazon.com.tr/')
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Object Repository/AccountInformation/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/input_Ne yazk ki erez tercihleriniz kaydedi_db1643'))
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Object Repository/AccountInformation/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/span_Giri yap'))
+
+WebUI.delay(1)
 
 WebUI.setText(findTestObject('Object Repository/AccountInformation/Page_Amazon Giri Yap/input_E-posta adresi veya telefon numaras_email'), 
     'mohamed.2.kassem95@gmail.com')
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Object Repository/AccountInformation/Page_Amazon Giri Yap/input_E-posta adresinizi veya cep telefonu _e246cd'))
+
+WebUI.delay(1)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/AccountInformation/Page_Amazon Giri Yap/input_ifremi unuttum_password'), 
     'yYCHQKrnkaEeSW8wnmcRVA==')
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Object Repository/AccountInformation/Page_Amazon Giri Yap/input_ifrenizi girin_signInSubmit'))
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/AccountInformation/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/span_Hesabm'))
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Object Repository/AccountInformation/Page_Hesabm/h2_Giri Yapma ve Gvenlik'))
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Object Repository/AccountInformation/Page_Amazon Ad Deitir, E-posta, Parola/input_Mohamed_auth-cnep-edit-name-button'))
+
+WebUI.delay(1)
 
 WebUI.setText(findTestObject('Object Repository/AccountInformation/Page_Amazon Ad Deitir, E-posta, Parola/input_Yeni ad_customerName'), 
     'mohamed')
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Object Repository/AccountInformation/Page_Amazon Ad Deitir, E-posta, Parola/input_Yeni ad_cnep_1C_submit_button'))
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Object Repository/AccountInformation/Page_Amazon Ad Deitir, E-posta, Parola/a_Bitti'))
+
+WebUI.delay(1)
 
 WebUI.closeBrowser()
 
