@@ -21,21 +21,37 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.amazon.com.tr/')
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Object Repository/AmazonPrime/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/input_Ne yazk ki erez tercihleriniz kaydedi_db1643'))
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/AmazonPrime/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/a_Prime'))
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Object Repository/AmazonPrime/Page_Amazon.com.tr Amazon Prime/input_CRETSZ_a-button-input'))
+
+WebUI.delay(1)
 
 WebUI.setText(findTestObject('Object Repository/AmazonPrime/Page_Amazon Giri Yap/input_E-posta adresi veya telefon numaras_email'), 
     'mohamed.2.kassem95@gmail.com')
 
+WebUI.delay(1)
+
 WebUI.setEncryptedText(findTestObject('Object Repository/AmazonPrime/Page_Amazon Giri Yap/input_ifremi unuttum_password'), 
     'yYCHQKrnkaEeSW8wnmcRVA==')
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Object Repository/AmazonPrime/Page_Amazon Giri Yap/input_ifrenizi girin_signInSubmit'))
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Object Repository/AmazonPrime/Page_Amazon Prime/span_Hayr, teekkrler'))
+
+WebUI.delay(1)
 
 WebUI.closeBrowser()
 
