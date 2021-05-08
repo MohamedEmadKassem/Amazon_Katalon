@@ -21,22 +21,38 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.amazon.com.tr/')
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Object Repository/SearchForAnItem/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/input_Ne yazk ki erez tercihleriniz kaydedi_db1643'))
+
+WebUI.delay(1)
 
 WebUI.setText(findTestObject('Object Repository/SearchForAnItem/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/input_Tm Kategoriler_field-keywords'), 
     'USB')
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Object Repository/SearchForAnItem/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/div_usb kablo'))
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Object Repository/SearchForAnItem/Page_Amazon.com.tr  usb kablo/i_4 Yldz ve zeri'))
+
+WebUI.delay(1)
 
 WebUI.setText(findTestObject('Object Repository/SearchForAnItem/Page_Amazon.com.tr usb kablo - 4 Yldz ve zeri/input_TL_low-price'), 
     '10')
 
+WebUI.delay(1)
+
 WebUI.setText(findTestObject('Object Repository/SearchForAnItem/Page_Amazon.com.tr usb kablo - 4 Yldz ve zeri/input_TL_high-price'), 
     '100')
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Object Repository/SearchForAnItem/Page_Amazon.com.tr usb kablo - 4 Yldz ve zeri/input_TL_a-button-input'))
+
+WebUI.delay(1)
 
 WebUI.closeBrowser()
 
