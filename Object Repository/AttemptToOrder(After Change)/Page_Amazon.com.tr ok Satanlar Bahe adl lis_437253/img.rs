@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img</name>
+   <tag></tag>
+   <elementGuidId>c4c3130b-ce86-480b-a1cf-2b0fde65bbe7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ol[@id='zg-ordered-list']/li/span/div/span/a/span/div/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img[alt=&quot;Bosch Elektrikli Çim Biçme Makinesi ARM 32 (1200 Watt, 32 cm kesme genişliği, 20-60 mm ayarlanabilir kesme yüksekliği…&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Bosch Elektrikli Çim Biçme Makinesi ARM 32 (1200 Watt, 32 cm kesme genişliği, 20-60 mm ayarlanabilir kesme yüksekliği…</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://images-na.ssl-images-amazon.com/images/I/61Xld5DCKaL._AC_UL200_SR200,200_.jpg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>200</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>200</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;zg-ordered-list&quot;)/li[@class=&quot;zg-item-immersion&quot;]/span[@class=&quot;a-list-item&quot;]/div[@class=&quot;a-section a-spacing-none aok-relative&quot;]/span[@class=&quot;aok-inline-block zg-item&quot;]/a[@class=&quot;a-link-normal&quot;]/span[@class=&quot;zg-text-center-align&quot;]/div[@class=&quot;a-section a-spacing-small&quot;]/img[1]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ol[@id='zg-ordered-list']/li/span/div/span/a/span/div/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Bosch Elektrikli Çim Biçme Makinesi ARM 32 (1200 Watt, 32 cm kesme genişliği, 20-60 mm ayarlanabilir kesme yüksekliği…']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/div/img</value>
+   </webElementXpaths>
+</WebElementEntity>
