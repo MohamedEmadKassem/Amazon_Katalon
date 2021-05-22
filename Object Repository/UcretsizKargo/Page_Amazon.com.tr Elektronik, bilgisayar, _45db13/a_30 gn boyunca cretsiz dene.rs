@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='HnP4IhQM8N0rIROjxbt1BQ']/div/span/a</value>
+         <value>//a[contains(text(),'30 gün boyunca ücretsiz dene')]</value>
       </entry>
       <entry>
          <key>CSS</key>

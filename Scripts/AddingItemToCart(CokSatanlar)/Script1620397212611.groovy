@@ -38,12 +38,6 @@ WebUI.delay(2)
 WebUI.selectOptionByValue(findTestObject('Object Repository/AddItemToCart(CokSatanlar)/Page_Xiaomi Mi Body Composition Scale 2 Tar_10bf2f/select_123456789101112131415'), 
     '2', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/AddItemToCart(CokSatanlar)/Page_Xiaomi Mi Body Composition Scale 2 Tar_10bf2f/select_123456789101112131415'), 
-    '15', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/AddItemToCart(CokSatanlar)/Page_Xiaomi Mi Body Composition Scale 2 Tar_10bf2f/select_123456789101112131415'), 
-    '1', true)
-
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/AddItemToCart(CokSatanlar)/Page_Xiaomi Mi Body Composition Scale 2 Tar_10bf2f/input_Miktar_submit.add-to-cart'))

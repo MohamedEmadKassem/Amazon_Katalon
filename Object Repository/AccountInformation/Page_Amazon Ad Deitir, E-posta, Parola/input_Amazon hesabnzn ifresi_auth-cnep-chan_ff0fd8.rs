@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Ne yazk ki erez tercihleriniz kaydedi_db1643</name>
+   <name>input_Amazon hesabnzn ifresi_auth-cnep-chan_ff0fd8</name>
    <tag></tag>
-   <elementGuidId>1a2dc2a4-d1b6-4f17-824e-e75ecda88899</elementGuidId>
+   <elementGuidId>39c7f1b2-a715-441e-bb78-198bfa2f033d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='sp-cc-accept']</value>
+         <value>//input[@id='auth-cnep-change-email-submit']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#sp-cc-accept</value>
+         <value>#auth-cnep-change-email-submit</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,28 +28,21 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>sp-cc-accept</value>
+      <value>auth-cnep-change-email-submit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tabindex</name>
       <type>Main</type>
-      <value>1</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>accept</value>
+      <value>3</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>a-button-input celwidget</value>
+      <value>a-button-input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,13 +54,6 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>all</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>aria-labelledby</name>
       <type>Main</type>
       <value>a-autoid-0-announce</value>
@@ -75,30 +61,16 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-csa-c-id</name>
-      <type>Main</type>
-      <value>ovbvi3-vaf05c-x1plc4-h1tyev</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-cel-widget</name>
-      <type>Main</type>
-      <value>sp-cc-accept</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;sp-cc-accept&quot;)</value>
+      <value>id(&quot;auth-cnep-change-email-submit&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='sp-cc-accept']</value>
+      <value>//input[@id='auth-cnep-change-email-submit']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +84,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span/input</value>
+      <value>//span/span/input</value>
    </webElementXpaths>
 </WebElementEntity>

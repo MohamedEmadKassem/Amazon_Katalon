@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Ne yazk ki erez tercihleriniz kaydedi_db1643</name>
+   <name>input_Cep Telefonu Numaras_auth-cnep-edit-p_1e35ad</name>
    <tag></tag>
-   <elementGuidId>1a2dc2a4-d1b6-4f17-824e-e75ecda88899</elementGuidId>
+   <elementGuidId>a75efb2c-a290-4f0b-829e-0a236f56a272</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='sp-cc-accept']</value>
+         <value>//input[@id='auth-cnep-edit-phone-button']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#sp-cc-accept</value>
+         <value>#auth-cnep-edit-phone-button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,28 +28,14 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>sp-cc-accept</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
-      <type>Main</type>
-      <value>1</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>accept</value>
+      <value>auth-cnep-edit-phone-button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>a-button-input celwidget</value>
+      <value>a-button-input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,57 +47,36 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>all</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>aria-labelledby</name>
       <type>Main</type>
-      <value>a-autoid-0-announce</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-csa-c-id</name>
-      <type>Main</type>
-      <value>ovbvi3-vaf05c-x1plc4-h1tyev</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-cel-widget</name>
-      <type>Main</type>
-      <value>sp-cc-accept</value>
+      <value>a-autoid-2-announce</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;sp-cc-accept&quot;)</value>
+      <value>id(&quot;auth-cnep-edit-phone-button&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='sp-cc-accept']</value>
+      <value>//input[@id='auth-cnep-edit-phone-button']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//span[@id='a-autoid-0']/span/input</value>
+      <value>//span[@id='a-autoid-2']/span/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span/input</value>
+      <value>//li[3]/span/div/form/div/div/div[2]/div/span/span/input</value>
    </webElementXpaths>
 </WebElementEntity>

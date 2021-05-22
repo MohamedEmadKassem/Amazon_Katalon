@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Bedava, Ayn Gn TeslimatGeerli rnlerdeAm_d32986</name>
+   <name>span_Hesabm</name>
    <tag></tag>
-   <elementGuidId>86c756fa-a413-4f10-888f-385734958afe</elementGuidId>
+   <elementGuidId>3660be33-3f2e-4f7f-b623-b5f3b1c0ff04</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Harika haberlerimiz var!'])[1]/following::div[19]</value>
+         <value>//div[@id='nav-al-your-account']/a/span</value>
       </entry>
       <entry>
          <key>CSS</key>
+         <value>#nav-al-your-account > a.nav-link.nav-item > span.nav-text</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,75 +21,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>bxc-grid__text a-text-left   bxc-grid__text--light</value>
+      <value>nav-text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-    Bedava, Aynı Gün Teslimat
-Geçerli ürünlerde
-
-
-Amazon Prime üyesiyseniz,
-Teslimat adresiniz İstanbul, Bursa ve Kocaeli'deki seçili ilçeler ise,
-Geçerli ürünlerdeki siparişlerinizin tutarı toplam  ₺50 ve üzeriyse,
-
-
-aynı gün teslimat ayrıcalığından ek ücret ödemeden faydalanabilirsiniz. Üstelik siparişleriniz, İstanbul'da PAZAR günü de teslim edilir*. Daha fazla bilgi
-
-* Dönemsel yoğunluk nedeniyle taahhüt edilen teslimat süresi uzayabilir.
-</value>
+      <value>Hesabım</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;contentGrid_353543&quot;)/div[@class=&quot;bxc-grid__container bxc-grid__container--width-1500&quot;]/div[@class=&quot;bxc-grid__row   bxc-grid__row--light&quot;]/div[@class=&quot;bxc-grid__column  bxc-grid__column--8-of-12   bxc-grid__column--light&quot;]/div[@class=&quot;bxc-grid__content   bxc-grid__content--light celwidget&quot;]/div[@class=&quot;bxc-grid__text a-text-left   bxc-grid__text--light&quot;]</value>
+      <value>id(&quot;nav-al-your-account&quot;)/a[@class=&quot;nav-link nav-item&quot;]/span[@class=&quot;nav-text&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='contentGrid_353543']/div/div[2]/div[2]/div/div</value>
+      <value>//div[@id='nav-al-your-account']/a/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Harika haberlerimiz var!'])[1]/following::div[19]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hesabım'])[2]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daha fazla bilgi'])[1]/following::div[30]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Liste Bulun'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='* Dönemsel yoğunluk nedeniyle taahhüt edilen teslimat süresi uzayabilir.']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Siparişlerim'])[1]/preceding::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Benim İçin Önerilenler'])[1]/preceding::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[5]/div/div/div/div[2]/div[2]/div/div</value>
+      <value>//div[2]/a/span</value>
    </webElementXpaths>
 </WebElementEntity>
