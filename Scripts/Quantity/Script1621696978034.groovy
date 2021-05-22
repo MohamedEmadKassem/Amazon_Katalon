@@ -21,24 +21,29 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.amazon.com.tr/')
 
-WebUI.click(findTestObject('Object Repository/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/input_Ne yazk ki erez tercihleriniz kaydedi_db1643'))
+WebUI.click(findTestObject('Object Repository/Quantity/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/input_Ne yazk ki erez tercihleriniz kaydedi_db1643'))
 
-WebUI.click(findTestObject('Object Repository/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/span_Hesap ve Listeler'))
+WebUI.click(findTestObject('Object Repository/Quantity/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/span_Hesap ve Listeler'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Amazon Giri Yap/input_E-posta adresi veya telefon numaras_email'), 
+WebUI.setText(findTestObject('Object Repository/Quantity/Page_Amazon Giri Yap/input_E-posta adresi veya telefon numaras_email'), 
     'mohamed.2.kassem95@gmail.com')
 
-WebUI.click(findTestObject('Object Repository/Page_Amazon Giri Yap/input_E-posta adresinizi veya cep telefonu _e246cd'))
+WebUI.click(findTestObject('Object Repository/Quantity/Page_Amazon Giri Yap/input_E-posta adresinizi veya cep telefonu _e246cd'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Amazon Giri Yap/input_ifremi unuttum_password'), 'yYCHQKrnkaEeSW8wnmcRVA==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Quantity/Page_Amazon Giri Yap/input_ifremi unuttum_password'), 
+    'yYCHQKrnkaEeSW8wnmcRVA==')
 
-WebUI.click(findTestObject('Object Repository/Page_Amazon Giri Yap/input_ifrenizi girin_signInSubmit'))
+WebUI.click(findTestObject('Object Repository/Quantity/Page_Amazon Giri Yap/input_ifrenizi girin_signInSubmit'))
 
-WebUI.click(findTestObject('Object Repository/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/span_Hesap ve Listeler_nav-icon nav-arrow null'))
+WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Page_Hesabm/h2_Giri Yapma ve Gvenlik'))
+WebUI.click(findTestObject('Object Repository/Quantity/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/a_ok Satanlar'))
 
-WebUI.click(findTestObject('Object Repository/Page_Amazon Ad Deitir, E-posta, Parola/a_Bitti'))
+WebUI.click(findTestObject('Object Repository/Quantity/Page_Amazon.com.tr ok Satanlar Amazondaki e_ae023c/div_Mutlu Olma Sanat'))
+
+WebUI.selectOptionByIndex(findTestObject('Quantity/Page_Amazon.com.tr ok Satanlar Amazondaki e_ae023c/quantity'), 1)
+
+WebUI.click(findTestObject('Object Repository/Quantity/Page_Mutlu Olma Sanat Arthur Schopenhauer, _abad14/input_Miktar_submit.add-to-cart'))
 
 WebUI.closeBrowser()
 

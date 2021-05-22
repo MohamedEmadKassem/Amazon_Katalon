@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>LogIn</name>
+   <name>Content</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,17 +10,23 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>2909317b-cf28-409a-8007-2e1b8151e633</testSuiteGuid>
+   <testSuiteGuid>ffdc3fb4-7626-47f9-a02c-a4acd52fe8d2</testSuiteGuid>
    <testCaseLink>
-      <guid>40341dd2-1fd1-4489-930b-1865155e072a</guid>
+      <guid>c665b1a6-3795-4a8d-b8e5-e047d82da045</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/NegativeLogIn</testCaseId>
+      <testCaseId>Test Cases/Controlling the postal code</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>0b9d8953-618e-4f53-acf8-9a68e9584b39</guid>
+      <guid>19e0e30c-8d32-4f1a-b261-12b9043a259b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/PositiveLogIn</testCaseId>
+      <testCaseId>Test Cases/EldayPage</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8b69d605-4022-4d6b-828f-f47983d78529</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/History</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

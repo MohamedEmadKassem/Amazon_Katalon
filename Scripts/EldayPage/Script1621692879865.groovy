@@ -21,24 +21,27 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.amazon.com.tr/')
 
-WebUI.click(findTestObject('Object Repository/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/input_Ne yazk ki erez tercihleriniz kaydedi_db1643'))
+WebUI.click(findTestObject('Object Repository/EldayPage/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/input_Ne yazk ki erez tercihleriniz kaydedi_db1643'))
 
-WebUI.click(findTestObject('Object Repository/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/span_Hesap ve Listeler'))
+WebUI.delay(1)
 
-WebUI.setText(findTestObject('Object Repository/Page_Amazon Giri Yap/input_E-posta adresi veya telefon numaras_email'), 
-    'mohamed.2.kassem95@gmail.com')
+WebUI.click(findTestObject('Object Repository/EldayPage/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/a_Geri Dnm'))
 
-WebUI.click(findTestObject('Object Repository/Page_Amazon Giri Yap/input_E-posta adresinizi veya cep telefonu _e246cd'))
+WebUI.delay(2)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Amazon Giri Yap/input_ifremi unuttum_password'), 'yYCHQKrnkaEeSW8wnmcRVA==')
+WebUI.verifyTextPresent('Elektrikli ve Elektronik Ekipman', false)
 
-WebUI.click(findTestObject('Object Repository/Page_Amazon Giri Yap/input_ifrenizi girin_signInSubmit'))
+WebUI.verifyTextPresent('Piller', false)
 
-WebUI.click(findTestObject('Object Repository/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/span_Hesap ve Listeler_nav-icon nav-arrow null'))
+WebUI.verifyTextPresent('Ambalajlar', false)
 
-WebUI.click(findTestObject('Object Repository/Page_Hesabm/h2_Giri Yapma ve Gvenlik'))
+WebUI.verifyTextPresent('Ampuller', false)
 
-WebUI.click(findTestObject('Object Repository/Page_Amazon Ad Deitir, E-posta, Parola/a_Bitti'))
+WebUI.click(findTestObject('Object Repository/EldayPage/Page_Amazon.com.tr Geri Dnm/img'))
+
+WebUI.delay(1)
+
+WebUI.verifyLinksAccessible(['https://elday.org/'])
 
 WebUI.closeBrowser()
 

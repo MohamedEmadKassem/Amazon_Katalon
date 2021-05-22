@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>ChangeRegion</name>
+   <name>History</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>c393b83b-9424-4848-b1c1-b18ac50fef08</testCaseGuid>
+   <testCaseGuid>1e60da81-d6f8-4156-a250-d3a444d8793b</testCaseGuid>
 </TestCaseEntity>
