@@ -41,4 +41,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Content/DeleteCart</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>a2c0d577-5d60-4def-9dbc-6b40825e39bc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Content/SaveForLaterCart</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6a012116-6fdb-4acb-9499-36f69a149692</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Content/GiftCard</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
