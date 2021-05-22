@@ -3,17 +3,10 @@
    <description></description>
    <name>a_ok Satanlar</name>
    <tag></tag>
-   <elementGuidId>34973b97-4421-43ab-8b64-e46067d5ab34</elementGuidId>
+   <elementGuidId>2ad06943-6dc6-49cb-9ac8-796bd3c97126</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>IMAGE</key>
-      </entry>
-      <entry>
          <key>CSS</key>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;nav-xshop&quot;)/a[@class=&quot;nav-a&quot;][count(. | //*[@href = '/gp/bestsellers?ref_=nav_cs_bestsellers_6bce5169359d4ca5bc88df01d2a80d70' and (text() = 'Çok Satanlar' or . = 'Çok Satanlar')]) = count(//*[@href = '/gp/bestsellers?ref_=nav_cs_bestsellers_6bce5169359d4ca5bc88df01d2a80d70' and (text() = 'Çok Satanlar' or . = 'Çok Satanlar')])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -62,7 +55,7 @@
       <matchCondition>equals</matchCondition>
       <name>data-csa-c-slot-id</name>
       <type>Main</type>
-      <value>nav_cs_0</value>
+      <value>nav_cs_1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -76,7 +69,7 @@
       <matchCondition>equals</matchCondition>
       <name>data-csa-c-id</name>
       <type>Main</type>
-      <value>ksk3od-5j2sey-mkzw9c-x6j90r</value>
+      <value>ueg128-po3qz8-8zukv6-jlojn8</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,7 +79,7 @@
       <value>Çok Satanlar</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
@@ -97,7 +90,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='nav-xshop']/a</value>
+      <value>//div[@id='nav-xshop']/a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,14 +104,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tümü'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Satış Yap'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Çıkış Yap'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tümü'])[1]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -153,6 +146,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/div[2]/div/div/a</value>
+      <value>//div[4]/div[2]/div/div/a[2]</value>
    </webElementXpaths>
 </WebElementEntity>

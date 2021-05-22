@@ -29,4 +29,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/History</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>921b4693-488f-46e5-bb29-217478729542</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Quantity</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f6266121-3f4f-405e-b5e4-9783f12210db</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DeleteCart</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

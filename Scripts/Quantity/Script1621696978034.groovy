@@ -37,11 +37,14 @@ WebUI.click(findTestObject('Object Repository/Quantity/Page_Amazon Giri Yap/inpu
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Quantity/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/a_ok Satanlar'))
+WebUI.click(findTestObject('Quantity/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/a_ok Satanlar'))
 
 WebUI.click(findTestObject('Object Repository/Quantity/Page_Amazon.com.tr ok Satanlar Amazondaki e_ae023c/div_Mutlu Olma Sanat'))
 
-WebUI.selectOptionByIndex(findTestObject('Quantity/Page_Amazon.com.tr ok Satanlar Amazondaki e_ae023c/quantity'), 1)
+WebUI.delay(1)
+
+WebUI.selectOptionByValue(findTestObject('Quantity/Page_Mutlu Olma Sanat Arthur Schopenhauer, _abad14/select_123456789101112131415161718192021222_d181e2'), 
+    '1', true)
 
 WebUI.click(findTestObject('Object Repository/Quantity/Page_Mutlu Olma Sanat Arthur Schopenhauer, _abad14/input_Miktar_submit.add-to-cart'))
 

@@ -29,7 +29,7 @@ WebUI.click(findTestObject('Object Repository/EldayPage/Page_Amazon.com.tr Elekt
 
 WebUI.delay(2)
 
-WebUI.verifyTextPresent('Elektrikli ve Elektronik Ekipman', false)
+WebUI.verifyTextPresent('Elektrikli ve Elektronik Ekipman', true)
 
 WebUI.verifyTextPresent('Piller', false)
 
