@@ -39,7 +39,11 @@ WebUI.click(findTestObject('Object Repository/AccountInformation/Page_Amazon Gir
 
 WebUI.click(findTestObject('Object Repository/AccountInformation/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/span_Hesap ve Listeler_nav-icon nav-arrow null'))
 
+WebUI.verifyElementClickable(findTestObject('AccountInformation/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/span_Hesap ve Listeler_nav-icon nav-arrow null'))
+
 WebUI.click(findTestObject('Object Repository/AccountInformation/Page_Hesabm/h2_Giri Yapma ve Gvenlik'))
+
+WebUI.verifyElementClickable(findTestObject('AccountInformation/Page_Hesabm/h2_Giri Yapma ve Gvenlik'))
 
 WebUI.closeBrowser()
 
