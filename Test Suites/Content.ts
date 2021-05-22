@@ -15,30 +15,30 @@
       <guid>c665b1a6-3795-4a8d-b8e5-e047d82da045</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Controlling the postal code</testCaseId>
+      <testCaseId>Test Cases/Content/Controlling the postal code</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>19e0e30c-8d32-4f1a-b261-12b9043a259b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/EldayPage</testCaseId>
+      <testCaseId>Test Cases/Content/EldayPage</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>8b69d605-4022-4d6b-828f-f47983d78529</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/History</testCaseId>
+      <testCaseId>Test Cases/Content/History</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>921b4693-488f-46e5-bb29-217478729542</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Quantity</testCaseId>
+      <testCaseId>Test Cases/Content/Quantity</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f6266121-3f4f-405e-b5e4-9783f12210db</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/DeleteCart</testCaseId>
+      <testCaseId>Test Cases/Content/DeleteCart</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
