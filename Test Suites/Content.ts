@@ -53,4 +53,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Content/GiftCard</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>a7ff1918-398f-48d3-838c-1539690ee590</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Content/SelectNavBarAll</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
