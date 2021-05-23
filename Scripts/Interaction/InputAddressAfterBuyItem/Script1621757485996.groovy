@@ -34,36 +34,36 @@ WebUI.delay(1)
 WebUI.click(findTestObject('Interaction/InputAddressAfterBuyItem/Page_Xiaomi Mi Body Composition Scale 2 Tar_10bf2f/input_Miktar_submit.buy-now'))
 
 WebUI.setText(findTestObject('Interaction/InputAddressAfterBuyItem/Page_Amazon Giri Yap/input_E-posta adresi veya telefon numaras_email'), 
-    'mohamed.2.kassem95@gmail.com')
+    'serhan-ediz@hotmail.com')
 
 WebUI.click(findTestObject('Interaction/InputAddressAfterBuyItem/Page_Amazon Giri Yap/input_E-posta adresinizi veya cep telefonu _e246cd'))
 
 WebUI.setEncryptedText(findTestObject('Interaction/InputAddressAfterBuyItem/Page_Amazon Giri Yap/input_ifremi unuttum_password'), 
-    'yYCHQKrnkaEeSW8wnmcRVA==')
+    'CDPLGu8eTw6JheauVworMA==')
 
 WebUI.click(findTestObject('Interaction/InputAddressAfterBuyItem/Page_Amazon Giri Yap/input_ifrenizi girin_signInSubmit'))
 
 WebUI.delay(1)
 
 WebUI.setText(findTestObject('Interaction/InputAddressAfterBuyItem/Page_Bu sipari iin teslimat adresi girin/input_Ad ve soyad_address-ui-widgets-enterA_32e6a7'), 
-    'Mohamed Kassem')
+    'Ali Tunceli')
 
 WebUI.setText(findTestObject('Interaction/InputAddressAfterBuyItem/Page_Bu sipari iin teslimat adresi girin/input_ehir_address-ui-widgets-enterAddressCity'), 
-    'ista')
+    'İst')
 
 WebUI.click(findTestObject('Interaction/InputAddressAfterBuyItem/Page_Bu sipari iin teslimat adresi girin/li_stanbul'))
 
 WebUI.delay(1)
 
 WebUI.setText(findTestObject('Interaction/InputAddressAfterBuyItem/Page_Bu sipari iin teslimat adresi girin/input_le_address-ui-widgets-enterAddressSta_f061f0'), 
-    'karta')
+    'Pendik')
 
 WebUI.click(findTestObject('Interaction/InputAddressAfterBuyItem/Page_Bu sipari iin teslimat adresi girin/li_Kartal'))
 
 WebUI.delay(1)
 
 WebUI.setText(findTestObject('Interaction/InputAddressAfterBuyItem/Page_Bu sipari iin teslimat adresi girin/input_Mahalle  Ky_address-ui-widgets-enterA_2acc43'), 
-    'kordo')
+    'Yenişehir Mh.')
 
 WebUI.click(findTestObject('Interaction/InputAddressAfterBuyItem/Page_Bu sipari iin teslimat adresi girin/li_Kordonboyu Mh'))
 
@@ -74,13 +74,13 @@ WebUI.click(findTestObject('Interaction/InputAddressAfterBuyItem/Page_Bu sipari 
 WebUI.delay(1)
 
 WebUI.setText(findTestObject('Interaction/InputAddressAfterBuyItem/Page_Bu sipari iin teslimat adresi girin/input_Adres satr 1_address-ui-widgets-enter_78ffed'), 
-    'IstMarina')
+    'Yenişehir mah dedepaşa cad')
 
 WebUI.setText(findTestObject('Interaction/InputAddressAfterBuyItem/Page_Bu sipari iin teslimat adresi girin/input_Adres satr 1_address-ui-widgets-enter_77bb88'), 
-    'C blok Da 206')
+    'parklife sitesi c blok daire 16')
 
 WebUI.setText(findTestObject('Interaction/InputAddressAfterBuyItem/Page_Bu sipari iin teslimat adresi girin/input_Teslimat iin cep telefonu (5xx-xxx-xx_160cc3'), 
-    '5453221338')
+    '5079791728')
 
 WebUI.click(findTestObject('Interaction/InputAddressAfterBuyItem/Page_Bu sipari iin teslimat adresi girin/input_Teslimat iin cep telefonu (5xx-xxx-xx_f5b9af'))
 

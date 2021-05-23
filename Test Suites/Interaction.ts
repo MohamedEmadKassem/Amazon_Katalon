@@ -41,4 +41,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Interaction/Login and Display Orders</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>5a2fbf84-37e2-412c-8990-4da3cad67429</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Interaction/Order Address</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9c9c3ed8-d223-45ce-a54b-76b7da0aed84</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Interaction/Register</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
