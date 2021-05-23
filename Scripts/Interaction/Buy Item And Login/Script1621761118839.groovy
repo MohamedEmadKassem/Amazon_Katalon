@@ -38,11 +38,11 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('BuyItemAndLogin/Page_Xiaomi Mi Body Composition Scale 2 Tart, Beyaz Amazon.com.tr/input_Miktar_submit.buy-now'))
 
-WebUI.setText(findTestObject('BuyItemAndLogin/Page_Amazon Giri Yap/input_E-posta adresi veya telefon numaras_email'), 'mohamed.2.kassem95@gmail.com')
+WebUI.setText(findTestObject('BuyItemAndLogin/Page_Amazon Giri Yap/input_E-posta adresi veya telefon numaras_email'), 'serhan-ediz@hotmail.com')
 
 WebUI.click(findTestObject('BuyItemAndLogin/Page_Amazon Giri Yap/input_E-posta adresinizi veya cep telefonu numaranz girin_continue'))
 
-WebUI.setText(findTestObject('BuyItemAndLogin/Page_Amazon Giri Yap/input_ifremi unuttum_password'), '911TURBo')
+WebUI.setText(findTestObject('BuyItemAndLogin/Page_Amazon Giri Yap/input_ifremi unuttum_password'), 'Amazon1998')
 
 WebUI.click(findTestObject('BuyItemAndLogin/Page_Amazon Giri Yap/input_ifrenizi girin_signInSubmit'))
 

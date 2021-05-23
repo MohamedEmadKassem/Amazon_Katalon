@@ -21,26 +21,26 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.amazon.com.tr/')
 
-WebUI.click(findTestObject('LoginAndDisplayOrders/Main page/input_Ne yazk ki erez tercihleriniz kaydedilirken bir sorun olutu. Tekrar deneyin._accept'))
+WebUI.click(findTestObject('GoToYoutubePage/home/input_Ne yazk ki erez tercihleriniz kaydedilirken bir sorun olutu. Tekrar deneyin._accept'))
 
-WebUI.click(findTestObject('LoginAndDisplayOrders/Main page/a_Merhaba, Giri yapn  Hesap ve Listeler        Hesap'))
-
-WebUI.setText(findTestObject('LoginAndDisplayOrders/Page_Amazon Giri Yap/input_E-posta adresi veya telefon numaras_email'), 
-    'serhan-ediz@hotmail.com')
-
-WebUI.click(findTestObject('LoginAndDisplayOrders/login/input_E-posta adresinizi veya cep telefonu numaranz girin_continue'))
-
-WebUI.setText(findTestObject('LoginAndDisplayOrders/login/input_ifremi unuttum_password'), 'Amazon1998')
-
-WebUI.click(findTestObject('LoginAndDisplayOrders/login/input_ifrenizi girin_signInSubmit'))
-
-WebUI.mouseOver(findTestObject('LoginAndDisplayOrders/Main page/span_Hesap ve Listeler'))
+WebUI.scrollToPosition(0, 1000)
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('LoginAndDisplayOrders/Main page/span_Siparilerim'))
+WebUI.click(findTestObject('GoToYoutubePage/home/a_Amazonda Sat Yapn'))
 
-WebUI.verifyTextPresent('sipariş vermediniz', false)
+WebUI.getUrl()
 
-WebUI.closeBrowser()
+WebUI.delay(1)
+
+WebUI.focus(findTestObject('GoToYoutubePage/cont/Container'))
+
+WebUI.scrollToElement(findTestObject('GoToYoutubePage/Page_Amazonda Sat - Amazonda Satc Ol - Amazon.com.tr/a_YouTube kanalmza erimek iin tklayn'), 
+    0)
+
+WebUI.click(findTestObject('GoToYoutubePage/Page_Amazonda Sat - Amazonda Satc Ol - Amazon.com.tr/a_YouTube kanalmza erimek iin tklayn'))
+
+WebUI.delay(1)
+
+WebUI.getUrl()
 

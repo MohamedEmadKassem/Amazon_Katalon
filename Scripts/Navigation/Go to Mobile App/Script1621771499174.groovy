@@ -21,26 +21,23 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.amazon.com.tr/')
 
-WebUI.click(findTestObject('LoginAndDisplayOrders/Main page/input_Ne yazk ki erez tercihleriniz kaydedilirken bir sorun olutu. Tekrar deneyin._accept'))
+WebUI.click(findTestObject('GoToMobileApp/home/cookies'))
 
-WebUI.click(findTestObject('LoginAndDisplayOrders/Main page/a_Merhaba, Giri yapn  Hesap ve Listeler        Hesap'))
-
-WebUI.setText(findTestObject('LoginAndDisplayOrders/Page_Amazon Giri Yap/input_E-posta adresi veya telefon numaras_email'), 
-    'serhan-ediz@hotmail.com')
-
-WebUI.click(findTestObject('LoginAndDisplayOrders/login/input_E-posta adresinizi veya cep telefonu numaranz girin_continue'))
-
-WebUI.setText(findTestObject('LoginAndDisplayOrders/login/input_ifremi unuttum_password'), 'Amazon1998')
-
-WebUI.click(findTestObject('LoginAndDisplayOrders/login/input_ifrenizi girin_signInSubmit'))
-
-WebUI.mouseOver(findTestObject('LoginAndDisplayOrders/Main page/span_Hesap ve Listeler'))
+WebUI.scrollToElement(findTestObject('GoToMobileApp/home/a_Amazon Mobil Uygulamas'), 0)
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('LoginAndDisplayOrders/Main page/span_Siparilerim'))
+WebUI.click(findTestObject('GoToMobileApp/home/a_Amazon Mobil Uygulamas'))
 
-WebUI.verifyTextPresent('sipariş vermediniz', false)
+WebUI.verifyLinksAccessible(['https://www.amazon.com.tr/gp/browse.html?node=14258932031&ref_=footer_mobapp'])
 
-WebUI.closeBrowser()
+WebUI.delay(1)
+
+WebUI.scrollToPosition(0, 500)
+
+WebUI.click(findTestObject('GoToMobileApp/Page_Amazon.com.tr Amazon Mobil Uygulamas/AppStore'))
+
+WebUI.switchToWindowUrl('https://apps.apple.com/tr/app/amazon-shopping-made-easy/id297606951?ign-itsct=apps_box&ign-itscg=30200')
+
+WebUI.verifyLinksAccessible(['https://apps.apple.com/tr/app/amazon-shopping-made-easy/id297606951?ign-itsct=apps_box&ign-itscg=30200'])
 

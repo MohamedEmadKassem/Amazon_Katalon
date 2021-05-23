@@ -21,7 +21,7 @@
       <guid>c690f35b-c02e-4370-8f66-e2e639a11467</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Interaction/Comment</testCaseId>
+      <testCaseId>Test Cases/Interaction/Buy Item And Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>44d13831-7aa7-4507-8f0c-c70c8cd6787a</guid>
@@ -33,7 +33,7 @@
       <guid>9d4f5656-fefe-4e4c-a713-afd7f961ac54</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Interaction/InputAddressAfterBuyItem</testCaseId>
+      <testCaseId>Test Cases/Interaction/CreateNewShoppingList</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9964c7b1-8f19-428e-88de-f11174172733</guid>
@@ -45,12 +45,24 @@
       <guid>5a2fbf84-37e2-412c-8990-4da3cad67429</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Interaction/Order Address</testCaseId>
+      <testCaseId>Test Cases/Interaction/Login and Display Orders</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9c9c3ed8-d223-45ce-a54b-76b7da0aed84</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Interaction/Register</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c4d17557-a4f4-42a1-963c-b7bf7ecc4c5e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Interaction/Account Information control and some changes</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>eff1cf08-6ed2-44f4-bdbb-ee5e31cee09b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Interaction/LoginAndLogout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

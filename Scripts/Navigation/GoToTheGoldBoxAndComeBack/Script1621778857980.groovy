@@ -21,26 +21,34 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.amazon.com.tr/')
 
-WebUI.click(findTestObject('LoginAndDisplayOrders/Main page/input_Ne yazk ki erez tercihleriniz kaydedilirken bir sorun olutu. Tekrar deneyin._accept'))
+WebUI.click(findTestObject('GoToGoldBoxAndComeBack/HomePage/Cookies'))
 
-WebUI.click(findTestObject('LoginAndDisplayOrders/Main page/a_Merhaba, Giri yapn  Hesap ve Listeler        Hesap'))
+WebUI.scrollToElement(findTestObject('GoToGoldBoxAndComeBack/HomePage/PrimeContainer'), 0)
 
-WebUI.setText(findTestObject('LoginAndDisplayOrders/Page_Amazon Giri Yap/input_E-posta adresi veya telefon numaras_email'), 
-    'serhan-ediz@hotmail.com')
+WebUI.waitForElementVisible(findTestObject('GoToGoldBoxAndComeBack/HomePage/a_30 gn boyunca cretsiz dene'), 0)
 
-WebUI.click(findTestObject('LoginAndDisplayOrders/login/input_E-posta adresinizi veya cep telefonu numaranz girin_continue'))
+WebUI.focus(findTestObject('GoToGoldBoxAndComeBack/HomePage/a_30 gn boyunca cretsiz dene'))
 
-WebUI.setText(findTestObject('LoginAndDisplayOrders/login/input_ifremi unuttum_password'), 'Amazon1998')
+WebUI.click(findTestObject('GoToGoldBoxAndComeBack/HomePage/a_30 gn boyunca cretsiz dene'))
 
-WebUI.click(findTestObject('LoginAndDisplayOrders/login/input_ifrenizi girin_signInSubmit'))
+WebUI.getUrl()
 
-WebUI.mouseOver(findTestObject('LoginAndDisplayOrders/Main page/span_Hesap ve Listeler'))
+WebUI.verifyLinksAccessible(['https://www.amazon.com.tr/prime'])
+
+WebUI.scrollToPosition(0, 500)
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('LoginAndDisplayOrders/Main page/span_Siparilerim'))
+WebUI.scrollToElement(findTestObject('GoToGoldBoxAndComeBack/Page_Amazon.com.tr Amazon Prime/frsatlarContainer'), 0)
 
-WebUI.verifyTextPresent('sipariş vermediniz', false)
+WebUI.waitForElementVisible(findTestObject('GoToGoldBoxAndComeBack/Page_Amazon.com.tr Amazon Prime/a_Frsatlar yakala'), 
+    0)
 
-WebUI.closeBrowser()
+WebUI.focus(findTestObject('GoToGoldBoxAndComeBack/Page_Amazon.com.tr Amazon Prime/a_Frsatlar yakala'))
+
+WebUI.click(findTestObject('GoToGoldBoxAndComeBack/Page_Amazon.com.tr Amazon Prime/a_Frsatlar yakala'))
+
+WebUI.getUrl()
+
+WebUI.verifyLinksAccessible(['https://www.amazon.com.tr/gp/goldbox'])
 

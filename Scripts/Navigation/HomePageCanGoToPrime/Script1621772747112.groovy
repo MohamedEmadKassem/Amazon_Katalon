@@ -21,26 +21,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.amazon.com.tr/')
 
-WebUI.click(findTestObject('LoginAndDisplayOrders/Main page/input_Ne yazk ki erez tercihleriniz kaydedilirken bir sorun olutu. Tekrar deneyin._accept'))
+WebUI.click(findTestObject('HomepageToPrime/home/cookies'))
 
-WebUI.click(findTestObject('LoginAndDisplayOrders/Main page/a_Merhaba, Giri yapn  Hesap ve Listeler        Hesap'))
+WebUI.scrollToElement(findTestObject('HomepageToPrime/home/amazon prime'), 0)
 
-WebUI.setText(findTestObject('LoginAndDisplayOrders/Page_Amazon Giri Yap/input_E-posta adresi veya telefon numaras_email'), 
-    'serhan-ediz@hotmail.com')
+WebUI.waitForElementVisible(findTestObject('HomepageToPrime/prime/a_30 gn boyunca cretsiz dene'), 0)
 
-WebUI.click(findTestObject('LoginAndDisplayOrders/login/input_E-posta adresinizi veya cep telefonu numaranz girin_continue'))
+WebUI.focus(findTestObject('HomepageToPrime/prime/a_30 gn boyunca cretsiz dene'))
 
-WebUI.setText(findTestObject('LoginAndDisplayOrders/login/input_ifremi unuttum_password'), 'Amazon1998')
+WebUI.click(findTestObject('HomepageToPrime/prime/a_30 gn boyunca cretsiz dene'))
 
-WebUI.click(findTestObject('LoginAndDisplayOrders/login/input_ifrenizi girin_signInSubmit'))
-
-WebUI.mouseOver(findTestObject('LoginAndDisplayOrders/Main page/span_Hesap ve Listeler'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('LoginAndDisplayOrders/Main page/span_Siparilerim'))
-
-WebUI.verifyTextPresent('sipariş vermediniz', false)
-
-WebUI.closeBrowser()
+WebUI.verifyLinksAccessible(['https://www.amazon.com.tr/prime'])
 

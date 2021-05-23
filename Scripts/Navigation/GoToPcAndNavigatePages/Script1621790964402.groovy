@@ -21,26 +21,29 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.amazon.com.tr/')
 
-WebUI.click(findTestObject('LoginAndDisplayOrders/Main page/input_Ne yazk ki erez tercihleriniz kaydedilirken bir sorun olutu. Tekrar deneyin._accept'))
+WebUI.click(findTestObject('GoToPcAndNavigatePages/home/input_Ne yazk ki erez tercihleriniz kaydedilirken bir sorun olutu. Tekrar deneyin._accept'))
 
-WebUI.click(findTestObject('LoginAndDisplayOrders/Main page/a_Merhaba, Giri yapn  Hesap ve Listeler        Hesap'))
+WebUI.click(findTestObject('GoToPcAndNavigatePages/home/a_Elektronik'))
 
-WebUI.setText(findTestObject('LoginAndDisplayOrders/Page_Amazon Giri Yap/input_E-posta adresi veya telefon numaras_email'), 
-    'serhan-ediz@hotmail.com')
+WebUI.scrollToElement(findTestObject('GoToPcAndNavigatePages/Page_Elektronik  Amazon.com.tr/span_Bilgisayarlar, Bileenleri ve Aksesuarlar'), 
+    0)
 
-WebUI.click(findTestObject('LoginAndDisplayOrders/login/input_E-posta adresinizi veya cep telefonu numaranz girin_continue'))
+WebUI.waitForElementVisible(findTestObject('GoToPcAndNavigatePages/Page_Elektronik  Amazon.com.tr/span_Bilgisayarlar, Bileenleri ve Aksesuarlar'), 
+    5)
 
-WebUI.setText(findTestObject('LoginAndDisplayOrders/login/input_ifremi unuttum_password'), 'Amazon1998')
-
-WebUI.click(findTestObject('LoginAndDisplayOrders/login/input_ifrenizi girin_signInSubmit'))
-
-WebUI.mouseOver(findTestObject('LoginAndDisplayOrders/Main page/span_Hesap ve Listeler'))
+WebUI.click(findTestObject('GoToPcAndNavigatePages/Page_Elektronik  Amazon.com.tr/span_Bilgisayarlar, Bileenleri ve Aksesuarlar'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('LoginAndDisplayOrders/Main page/span_Siparilerim'))
+WebUI.scrollToElement(findTestObject('GoToPcAndNavigatePages/filter/span_500 TL zeri'), 0)
 
-WebUI.verifyTextPresent('sipariş vermediniz', false)
+WebUI.waitForElementVisible(findTestObject('GoToPcAndNavigatePages/filter/span_500 TL zeri'), 5)
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('GoToPcAndNavigatePages/filter/span_500 TL zeri'))
+
+WebUI.delay(1)
+
+WebUI.scrollToElement(findTestObject('GoToPcAndNavigatePages/Page_Amazon.com.tr/containerForNextPrev'), 0)
+
+WebUI.click(findTestObject('GoToPcAndNavigatePages/Page_Amazon.com.tr/a_2'))
 

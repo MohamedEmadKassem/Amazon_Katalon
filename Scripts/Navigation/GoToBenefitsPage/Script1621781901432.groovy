@@ -21,26 +21,25 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.amazon.com.tr/')
 
-WebUI.click(findTestObject('LoginAndDisplayOrders/Main page/input_Ne yazk ki erez tercihleriniz kaydedilirken bir sorun olutu. Tekrar deneyin._accept'))
+WebUI.click(findTestObject('BenefitsPage/Home/cookies'))
 
-WebUI.click(findTestObject('LoginAndDisplayOrders/Main page/a_Merhaba, Giri yapn  Hesap ve Listeler        Hesap'))
-
-WebUI.setText(findTestObject('LoginAndDisplayOrders/Page_Amazon Giri Yap/input_E-posta adresi veya telefon numaras_email'), 
-    'serhan-ediz@hotmail.com')
-
-WebUI.click(findTestObject('LoginAndDisplayOrders/login/input_E-posta adresinizi veya cep telefonu numaranz girin_continue'))
-
-WebUI.setText(findTestObject('LoginAndDisplayOrders/login/input_ifremi unuttum_password'), 'Amazon1998')
-
-WebUI.click(findTestObject('LoginAndDisplayOrders/login/input_ifrenizi girin_signInSubmit'))
-
-WebUI.mouseOver(findTestObject('LoginAndDisplayOrders/Main page/span_Hesap ve Listeler'))
+WebUI.scrollToPosition(0, 1000)
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('LoginAndDisplayOrders/Main page/span_Siparilerim'))
+WebUI.click(findTestObject('BenefitsPage/Home/a_Kariyer'))
 
-WebUI.verifyTextPresent('sipariş vermediniz', false)
+WebUI.verifyLinksAccessible(['https://www.amazon.jobs/en/'])
 
-WebUI.closeBrowser()
+WebUI.delay(1)
+
+WebUI.scrollToPosition(0, 1000)
+
+WebUI.click(findTestObject('BenefitsPage/Kariyer/a_Benefits'))
+
+WebUI.delay(1)
+
+WebUI.getUrl()
+
+WebUI.verifyLinksAccessible(['https://www.amazon.jobs/en/benefits'])
 

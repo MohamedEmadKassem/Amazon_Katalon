@@ -21,26 +21,28 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.amazon.com.tr/')
 
-WebUI.click(findTestObject('LoginAndDisplayOrders/Main page/input_Ne yazk ki erez tercihleriniz kaydedilirken bir sorun olutu. Tekrar deneyin._accept'))
+WebUI.click(findTestObject('GoToPrimeVideoPage/home/cookies'))
 
-WebUI.click(findTestObject('LoginAndDisplayOrders/Main page/a_Merhaba, Giri yapn  Hesap ve Listeler        Hesap'))
+WebUI.scrollToElement(findTestObject('GoToPrimeVideoPage/home/PrimeContainer'), 0)
 
-WebUI.setText(findTestObject('LoginAndDisplayOrders/Page_Amazon Giri Yap/input_E-posta adresi veya telefon numaras_email'), 
-    'serhan-ediz@hotmail.com')
+WebUI.waitForElementVisible(findTestObject('GoToPrimeVideoPage/home/PrimeVideo'), 5)
 
-WebUI.click(findTestObject('LoginAndDisplayOrders/login/input_E-posta adresinizi veya cep telefonu numaranz girin_continue'))
+WebUI.focus(findTestObject('GoToPrimeVideoPage/home/PrimeVideo'))
 
-WebUI.setText(findTestObject('LoginAndDisplayOrders/login/input_ifremi unuttum_password'), 'Amazon1998')
+WebUI.click(findTestObject('GoToPrimeVideoPage/home/PrimeVideo'))
 
-WebUI.click(findTestObject('LoginAndDisplayOrders/login/input_ifrenizi girin_signInSubmit'))
+WebUI.getUrl()
 
-WebUI.mouseOver(findTestObject('LoginAndDisplayOrders/Main page/span_Hesap ve Listeler'))
+WebUI.verifyLinksAccessible(['https://www.primevideo.com/'])
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('LoginAndDisplayOrders/Main page/span_Siparilerim'))
+WebUI.click(findTestObject('Page_Prime Videoya Ho Geldiniz/span_imdi izleyin, istediiniz zaman iptal edin._dv-overlay'))
 
-WebUI.verifyTextPresent('sipariş vermediniz', false)
+WebUI.setText(findTestObject('GoToPrimeVideoPage/Page_Amazon Giri Yap/input_E-posta adresi veya telefon numaras_email'), 
+    'serhan-ediz@hotmail.com')
 
-WebUI.closeBrowser()
+WebUI.setText(findTestObject('GoToPrimeVideoPage/Page_Amazon Giri Yap/input_ifremi unuttum_password'), 'Amazon1998')
+
+WebUI.click(findTestObject('GoToPrimeVideoPage/Page_Amazon Giri Yap/input_ifrenizi girin_signInSubmit'))
 

@@ -26,12 +26,12 @@ WebUI.click(findTestObject('Interaction/CreateNewShoppingList/Page_Amazon.com.tr
 WebUI.click(findTestObject('Interaction/CreateNewShoppingList/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/span_Hesap ve Listeler'))
 
 WebUI.setText(findTestObject('Interaction/CreateNewShoppingList/Page_Amazon Giri Yap/input_E-posta adresi veya telefon numaras_email'), 
-    'mohamed.2.kassem95@gmail.com')
+    'serhan-ediz@hotmail.com')
 
 WebUI.click(findTestObject('Interaction/CreateNewShoppingList/Page_Amazon Giri Yap/input_E-posta adresinizi veya cep telefonu _e246cd'))
 
 WebUI.setEncryptedText(findTestObject('Interaction/CreateNewShoppingList/Page_Amazon Giri Yap/input_ifremi unuttum_password'), 
-    'yYCHQKrnkaEeSW8wnmcRVA==')
+    'CDPLGu8eTw6JheauVworMA==')
 
 WebUI.click(findTestObject('Interaction/CreateNewShoppingList/Page_Amazon Giri Yap/input_ifrenizi girin_signInSubmit'))
 
