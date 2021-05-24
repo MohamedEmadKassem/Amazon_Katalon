@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://www.amazon.com.tr/')
 
-WebUI.navigateToUrl('https://www.amazon.com.tr/')
+WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('GoToGoldBoxAndComeBack/HomePage/Cookies'))
 
@@ -36,8 +36,6 @@ WebUI.getUrl()
 WebUI.verifyLinksAccessible(['https://www.amazon.com.tr/prime'])
 
 WebUI.scrollToPosition(0, 500)
-
-WebUI.delay(1)
 
 WebUI.scrollToElement(findTestObject('GoToGoldBoxAndComeBack/Page_Amazon.com.tr Amazon Prime/frsatlarContainer'), 0)
 

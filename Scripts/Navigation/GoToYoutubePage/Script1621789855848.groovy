@@ -17,21 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://www.amazon.com.tr/')
 
-WebUI.navigateToUrl('https://www.amazon.com.tr/')
+WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('GoToYoutubePage/home/input_Ne yazk ki erez tercihleriniz kaydedilirken bir sorun olutu. Tekrar deneyin._accept'))
 
 WebUI.scrollToPosition(0, 1000)
 
-WebUI.delay(1)
-
 WebUI.click(findTestObject('GoToYoutubePage/home/a_Amazonda Sat Yapn'))
 
 WebUI.getUrl()
-
-WebUI.delay(1)
 
 WebUI.focus(findTestObject('GoToYoutubePage/cont/Container'))
 
@@ -39,8 +35,6 @@ WebUI.scrollToElement(findTestObject('GoToYoutubePage/Page_Amazonda Sat - Amazon
     0)
 
 WebUI.click(findTestObject('GoToYoutubePage/Page_Amazonda Sat - Amazonda Satc Ol - Amazon.com.tr/a_YouTube kanalmza erimek iin tklayn'))
-
-WebUI.delay(1)
 
 WebUI.getUrl()
 

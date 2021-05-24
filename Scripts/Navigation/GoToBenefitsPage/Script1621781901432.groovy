@@ -17,27 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://www.amazon.com.tr/')
 
-WebUI.navigateToUrl('https://www.amazon.com.tr/')
+WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('BenefitsPage/Home/cookies'))
 
 WebUI.scrollToPosition(0, 1000)
 
-WebUI.delay(1)
-
 WebUI.click(findTestObject('BenefitsPage/Home/a_Kariyer'))
 
 WebUI.verifyLinksAccessible(['https://www.amazon.jobs/en/'])
 
-WebUI.delay(1)
-
 WebUI.scrollToPosition(0, 1000)
 
 WebUI.click(findTestObject('BenefitsPage/Kariyer/a_Benefits'))
-
-WebUI.delay(1)
 
 WebUI.getUrl()
 

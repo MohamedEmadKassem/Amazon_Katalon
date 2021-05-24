@@ -17,21 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://www.amazon.com.tr/')
 
-WebUI.navigateToUrl('https://www.amazon.com.tr/')
+WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('GoToMobileApp/home/cookies'))
 
 WebUI.scrollToElement(findTestObject('GoToMobileApp/home/a_Amazon Mobil Uygulamas'), 0)
 
-WebUI.delay(1)
-
 WebUI.click(findTestObject('GoToMobileApp/home/a_Amazon Mobil Uygulamas'))
 
 WebUI.verifyLinksAccessible(['https://www.amazon.com.tr/gp/browse.html?node=14258932031&ref_=footer_mobapp'])
-
-WebUI.delay(1)
 
 WebUI.scrollToPosition(0, 500)
 

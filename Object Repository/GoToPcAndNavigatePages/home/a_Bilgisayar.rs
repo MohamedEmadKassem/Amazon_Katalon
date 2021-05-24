@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_2</name>
+   <name>a_Bilgisayar</name>
    <tag></tag>
-   <elementGuidId>99e72fe6-da5d-4108-90d0-29cfe67e1081</elementGuidId>
+   <elementGuidId>9cd91a77-6b20-4542-abde-8dc542f00d5a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='search']/div/div/div/div/span[3]/div[2]/div[25]/span/div/div/ul/li[3]/a</value>
+         <value>//div[@id='nav-xshop']/a[10]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>li.a-normal > a</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,83 +28,125 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/s?i=computers&amp;bbn=12466440031&amp;rh=n%3A12466440031%2Cp_36%3A13758222031&amp;dc&amp;page=2&amp;qid=1621893794&amp;rnid=13736708031&amp;ref=sr_pg_2</value>
+      <value>/bilgisayar/b/?ie=UTF8&amp;node=12466440031&amp;ref_=nav_cs_pc_ac9eb59a58b84fa1a799d6d0d9018061</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav-a  </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-csa-c-type</name>
+      <type>Main</type>
+      <value>link</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-csa-c-slot-id</name>
+      <type>Main</type>
+      <value>nav_cs_9</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-csa-c-content-id</name>
+      <type>Main</type>
+      <value>nav_cs_pc_ac9eb59a58b84fa1a799d6d0d9018061</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-csa-c-id</name>
+      <type>Main</type>
+      <value>abhzee-hhhlh4-4o7kz0-2wz8vp</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>2</value>
+      <value>Bilgisayar</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;search&quot;)/div[@class=&quot;s-desktop-width-max s-opposite-dir&quot;]/div[@class=&quot;s-desktop-content s-opposite-dir sg-row&quot;]/div[@class=&quot;s-matching-dir sg-col-16-of-20 sg-col sg-col-8-of-12 sg-col-12-of-16&quot;]/div[@class=&quot;sg-col-inner&quot;]/span[@class=&quot;rush-component s-latency-cf-section&quot;]/div[@class=&quot;s-main-slot s-result-list s-search-results sg-row&quot;]/div[@class=&quot;a-section a-spacing-none s-result-item s-flex-full-width s-widget&quot;]/span[@class=&quot;celwidget slot=MAIN template=PAGINATION widgetId=pagination-button&quot;]/div[@class=&quot;a-section a-spacing-none a-padding-base&quot;]/div[@class=&quot;a-text-center&quot;]/ul[@class=&quot;a-pagination&quot;]/li[@class=&quot;a-normal&quot;]/a[1]</value>
+      <value>id(&quot;nav-xshop&quot;)/a[@class=&quot;nav-a&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='search']/div/div/div/div/span[3]/div[2]/div[25]/span/div/div/ul/li[3]/a</value>
+      <value>//div[@id='nav-xshop']/a[10]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'2')]</value>
+      <value>//a[contains(text(),'Bilgisayar')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='←Önceki'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kişisel Bakım ve Kozmetik'])[2]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Stokta sadece 8 adet kaldı.'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Müşteri Hizmetleri'])[1]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='...'])[1]/preceding::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hediye Fikirleri'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sonraki→'])[1]/preceding::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ev ve Yaşam'])[1]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='2']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='Bilgisayar']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/s?i=computers&amp;bbn=12466440031&amp;rh=n%3A12466440031%2Cp_36%3A13758222031&amp;dc&amp;page=2&amp;qid=1621893794&amp;rnid=13736708031&amp;ref=sr_pg_2')]</value>
+      <value>//a[contains(@href, '/bilgisayar/b/?ie=UTF8&amp;node=12466440031&amp;ref_=nav_cs_pc_ac9eb59a58b84fa1a799d6d0d9018061')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[3]/a</value>
+      <value>//a[10]</value>
    </webElementXpaths>
 </WebElementEntity>

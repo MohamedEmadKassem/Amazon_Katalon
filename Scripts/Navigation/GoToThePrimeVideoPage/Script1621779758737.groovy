@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://www.amazon.com.tr/')
 
-WebUI.navigateToUrl('https://www.amazon.com.tr/')
+WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('GoToPrimeVideoPage/home/cookies'))
 
@@ -34,8 +34,6 @@ WebUI.click(findTestObject('GoToPrimeVideoPage/home/PrimeVideo'))
 WebUI.getUrl()
 
 WebUI.verifyLinksAccessible(['https://www.primevideo.com/'])
-
-WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_Prime Videoya Ho Geldiniz/span_imdi izleyin, istediiniz zaman iptal edin._dv-overlay'))
 

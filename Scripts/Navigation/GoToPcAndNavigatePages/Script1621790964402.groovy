@@ -17,33 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://www.amazon.com.tr/')
 
-WebUI.navigateToUrl('https://www.amazon.com.tr/')
+WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('GoToPcAndNavigatePages/home/input_Ne yazk ki erez tercihleriniz kaydedilirken bir sorun olutu. Tekrar deneyin._accept'))
 
-WebUI.click(findTestObject('GoToPcAndNavigatePages/home/a_Elektronik'))
+WebUI.click(findTestObject('GoToPcAndNavigatePages/home/a_Bilgisayar'))
 
-WebUI.scrollToElement(findTestObject('GoToPcAndNavigatePages/Page_Elektronik  Amazon.com.tr/span_Bilgisayarlar, Bileenleri ve Aksesuarlar'), 
-    0)
+WebUI.scrollToElement(findTestObject('GoToPcAndNavigatePages/Page_Bilgisayar  Amazon.com.tr/span_500 TL zeri'), 0)
 
-WebUI.waitForElementVisible(findTestObject('GoToPcAndNavigatePages/Page_Elektronik  Amazon.com.tr/span_Bilgisayarlar, Bileenleri ve Aksesuarlar'), 
-    5)
+WebUI.click(findTestObject('GoToPcAndNavigatePages/Page_Bilgisayar  Amazon.com.tr/span_500 TL zeri'))
 
-WebUI.click(findTestObject('GoToPcAndNavigatePages/Page_Elektronik  Amazon.com.tr/span_Bilgisayarlar, Bileenleri ve Aksesuarlar'))
-
-WebUI.delay(1)
-
-WebUI.scrollToElement(findTestObject('GoToPcAndNavigatePages/filter/span_500 TL zeri'), 0)
-
-WebUI.waitForElementVisible(findTestObject('GoToPcAndNavigatePages/filter/span_500 TL zeri'), 5)
-
-WebUI.click(findTestObject('GoToPcAndNavigatePages/filter/span_500 TL zeri'))
-
-WebUI.delay(1)
-
-WebUI.scrollToElement(findTestObject('GoToPcAndNavigatePages/Page_Amazon.com.tr/containerForNextPrev'), 0)
+WebUI.scrollToElement(findTestObject('GoToPcAndNavigatePages/Page_Amazon.com.tr/div_nceki123...400Sonraki'), 0)
 
 WebUI.click(findTestObject('GoToPcAndNavigatePages/Page_Amazon.com.tr/a_2'))
 
