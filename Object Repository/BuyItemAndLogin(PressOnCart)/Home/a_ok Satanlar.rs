@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Ali  Hesap ve Listeler        Hesap</name>
+   <name>a_ok Satanlar</name>
    <tag></tag>
-   <elementGuidId>e3c2d024-73b6-4929-89e2-e3b012fe9f06</elementGuidId>
+   <elementGuidId>4c15b744-c022-4b00-b797-8c9bbc19014f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#nav-link-accountList</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;nav-link-accountList&quot;]</value>
+         <value>//a[contains(text(),'Çok Satanlar')]
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,42 +29,14 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>https://www.amazon.com.tr/gp/css/homepage.html?ref_=nav_youraccount_btn</value>
+      <value>/gp/bestsellers?ref_=nav_cs_bestsellers_6bce5169359d4ca5bc88df01d2a80d70</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>nav-a nav-a-2 nav-truncate   nav-progressive-attribute nav-active</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-nav-ref</name>
-      <type>Main</type>
-      <value>nav_youraccount_btn</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-nav-role</name>
-      <type>Main</type>
-      <value>signin</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-ux-jq-mouseenter</name>
-      <type>Main</type>
-      <value>true</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>nav-link-accountList</value>
+      <value>nav-a  </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,84 +57,97 @@
       <matchCondition>equals</matchCondition>
       <name>data-csa-c-slot-id</name>
       <type>Main</type>
-      <value>nav-link-accountList</value>
+      <value>nav_cs_1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-csa-c-content-id</name>
       <type>Main</type>
-      <value>nav_youraccount_btn</value>
+      <value>nav_cs_bestsellers_6bce5169359d4ca5bc88df01d2a80d70</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-csa-c-id</name>
       <type>Main</type>
-      <value>z9w6c-yn8v3b-ou5fw4-5c5uni</value>
+      <value>8pooof-6x31oi-p0i1qe-6luend</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-  Ali​
-  Hesap ve Listeler
-  
-  
-    Hesap
-    
-  
-</value>
+      <value>Çok Satanlar</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;nav-link-accountList&quot;)</value>
+      <value>id(&quot;nav-xshop&quot;)/a[@class=&quot;nav-a&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//a[@id='nav-link-accountList']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='nav-tools']/a</value>
+      <value>//div[@id='nav-xshop']/a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Çok Satanlar')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tüm Kategoriler'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Satış Yap'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Teslimat adresini seçin'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tümü'])[1]/following::a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Prime'])[1]/preceding::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Moda'])[2]/preceding::a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Çok Satanlar']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, 'https://www.amazon.com.tr/gp/css/homepage.html?ref_=nav_youraccount_btn')]</value>
+      <value>//a[contains(@href, '/gp/bestsellers?ref_=nav_cs_bestsellers_6bce5169359d4ca5bc88df01d2a80d70')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/a</value>
+      <value>//div[4]/div[2]/div/div/a[2]</value>
    </webElementXpaths>
 </WebElementEntity>

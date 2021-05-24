@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://www.amazon.com.tr/')
 
-WebUI.navigateToUrl('https://www.amazon.com.tr/')
+WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('LoginAndDisplayOrders/Main page/input_Ne yazk ki erez tercihleriniz kaydedilirken bir sorun olutu. Tekrar deneyin._accept'))
 
@@ -36,11 +36,7 @@ WebUI.click(findTestObject('LoginAndDisplayOrders/login/input_ifrenizi girin_sig
 
 WebUI.mouseOver(findTestObject('LoginAndDisplayOrders/Main page/span_Hesap ve Listeler'))
 
-WebUI.delay(1)
-
 WebUI.click(findTestObject('LoginAndDisplayOrders/Main page/span_Siparilerim'))
 
 WebUI.verifyTextPresent('sipariş vermediniz', false)
-
-WebUI.closeBrowser()
 

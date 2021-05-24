@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://www.amazon.com.tr/')
 
-WebUI.navigateToUrl('https://www.amazon.com.tr/')
+WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('AccInfoControlAndSomeChanges/main/cookies'))
 
@@ -35,8 +35,6 @@ WebUI.click(findTestObject('AccInfoControlAndSomeChanges/Page_Amazon Giri Yap/in
 WebUI.setText(findTestObject('AccInfoControlAndSomeChanges/Page_Amazon Giri Yap/input_ifremi unuttum_password'), 'Amazon1998')
 
 WebUI.click(findTestObject('AccInfoControlAndSomeChanges/Page_Amazon Giri Yap/input_ifrenizi girin_signInSubmit'))
-
-WebUI.verifyTextPresent('Ali', false)
 
 WebUI.click(findTestObject('AccInfoControlAndSomeChanges/main page/a_Ali  Hesap ve Listeler        Hesap'))
 

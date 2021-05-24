@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://www.amazon.com.tr/')
 
-WebUI.navigateToUrl('https://www.amazon.com.tr/')
+WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Interaction/CreateNewShoppingList/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/input_Ne yazk ki erez tercihleriniz kaydedi_db1643'))
 
@@ -35,13 +35,9 @@ WebUI.setEncryptedText(findTestObject('Interaction/CreateNewShoppingList/Page_Am
 
 WebUI.click(findTestObject('Interaction/CreateNewShoppingList/Page_Amazon Giri Yap/input_ifrenizi girin_signInSubmit'))
 
-WebUI.delay(1)
-
 WebUI.mouseOver(findTestObject('Interaction/CreateNewShoppingList/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/span_Liste Oluturun'))
 
 WebUI.click(findTestObject('Interaction/CreateNewShoppingList/Page_Amazon.com.tr/input_Daha fazla bilgi aln_a-button-input a_25fdb8'))
-
-WebUI.delay(1)
 
 WebUI.closeBrowser()
 

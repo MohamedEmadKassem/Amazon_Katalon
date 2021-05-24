@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://www.amazon.com.tr/')
 
-WebUI.navigateToUrl('https://www.amazon.com.tr/')
+WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('BuyItemAndLogin/Page_Amazon.com.tr Elektronik, bilgisayar/input_Ne yazk ki erez tercihleriniz kaydedilirken bir sorun olutu. Tekrar deneyin._accept'))
 
@@ -34,8 +34,6 @@ WebUI.click(findTestObject('BuyItemAndLogin/Page_Amazon.com.tr ok Satanlar Amazo
 WebUI.scrollToElement(findTestObject('BuyItemAndLogin/Page_Xiaomi Mi Body Composition Scale 2 Tart, Beyaz Amazon.com.tr/input_Miktar_submit.buy-now'), 
     1)
 
-WebUI.delay(1)
-
 WebUI.click(findTestObject('BuyItemAndLogin/Page_Xiaomi Mi Body Composition Scale 2 Tart, Beyaz Amazon.com.tr/input_Miktar_submit.buy-now'))
 
 WebUI.setText(findTestObject('BuyItemAndLogin/Page_Amazon Giri Yap/input_E-posta adresi veya telefon numaras_email'), 'serhan-ediz@hotmail.com')
@@ -45,6 +43,4 @@ WebUI.click(findTestObject('BuyItemAndLogin/Page_Amazon Giri Yap/input_E-posta a
 WebUI.setText(findTestObject('BuyItemAndLogin/Page_Amazon Giri Yap/input_ifremi unuttum_password'), 'Amazon1998')
 
 WebUI.click(findTestObject('BuyItemAndLogin/Page_Amazon Giri Yap/input_ifrenizi girin_signInSubmit'))
-
-WebUI.closeBrowser()
 

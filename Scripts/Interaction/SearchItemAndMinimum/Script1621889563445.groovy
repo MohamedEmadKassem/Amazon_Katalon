@@ -17,23 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://www.amazon.com.tr/')
-
-WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Register/mmain/input_Ne yazk ki erez tercihleriniz kaydedilirken bir sorun olutu. Tekrar deneyin._accept'))
-
-WebUI.click(findTestObject('Register/mmain/a_Merhaba, Giri yapn  Hesap ve Listeler        Hesap'))
-
-WebUI.click(findTestObject('Register/Page_Amazon Giri Yap/oluturun'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('Register/Page_Amazon Kayd/input_Ad - Soyad_customerName'), 'Mo Salah')
-
-WebUI.setText(findTestObject('Register/Page_Amazon Kayd/input_E-posta_email'), 'deneme@gmail.com')
-
-WebUI.setEncryptedText(findTestObject('Register/Page_Amazon Kayd/input_ifre_password'), 'CDPLGu8eTw6JheauVworMA==')
-
-WebUI.setEncryptedText(findTestObject('Register/Page_Amazon Kayd/input_ifreyi tekrar girin_passwordCheck'), 'CDPLGu8eTw6JheauVworMA==')
-
-WebUI.click(findTestObject('Register/Page_Amazon Kayd/input_ifreler elemiyor_continue'))
-

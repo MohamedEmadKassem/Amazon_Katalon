@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://www.amazon.com.tr/')
 
-WebUI.navigateToUrl('https://www.amazon.com.tr/')
+WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Log in and Log out/main page/cookies'))
 
@@ -28,23 +28,19 @@ WebUI.mouseOver(findTestObject('Log in and Log out/main page/a_Merhaba, Giri yap
 WebUI.click(findTestObject('Log in and Log out/main page/span_Giri yap'))
 
 WebUI.setText(findTestObject('Log in and Log out/Page_Amazon Giri Yap/input_E-posta adresi veya telefon numaras_email'), 
-    'serhan-ediz@hotmail.com')
+    'mohamed.2.kassem95@gmail.com')
 
 WebUI.click(findTestObject('Log in and Log out/Page_Amazon Giri Yap/input_E-posta adresinizi veya cep telefonu numaranz girin_continue'))
 
-WebUI.setText(findTestObject('Log in and Log out/Page_Amazon Giri Yap/input_ifremi unuttum_password'), 'Amazon1998')
+WebUI.setText(findTestObject('Log in and Log out/Page_Amazon Giri Yap/input_ifremi unuttum_password'), '911TURBo')
 
 WebUI.click(findTestObject('Log in and Log out/Page_Amazon Giri Yap/input_ifrenizi girin_signInSubmit'))
 
-WebUI.delay(0)
-
-WebUI.verifyTextPresent('Ali', false)
+WebUI.verifyTextPresent('mohamed', false)
 
 WebUI.verifyLinksAccessible(['https://www.amazon.com.tr/?ref_=nav_signin&'])
 
 WebUI.mouseOver(findTestObject('Log in and Log out/main page/a_Ali  Hesap ve Listeler        Hesap'))
-
-WebUI.delay(2)
 
 WebUI.click(findTestObject('Log in and Log out/main page/span_k Yap'))
 

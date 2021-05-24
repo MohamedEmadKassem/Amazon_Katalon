@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://www.amazon.com.tr/')
 
-WebUI.navigateToUrl('https://www.amazon.com.tr/')
+WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('comment/Page_Amazon.com.tr Elektronik, bilgisayar,/input_Ne yazk ki erez tercihleriniz kaydedilirken bir sorun olutu. Tekrar deneyin._accept'))
 
@@ -40,4 +40,10 @@ WebUI.waitForElementVisible(findTestObject('comment/Page_BRITA MAXTRA Yedek Su F
 WebUI.focus(findTestObject('comment/Page_BRITA MAXTRA Yedek Su Filtresi - Altl Amazon.com.tr/a_Mteri yorumu yazn'))
 
 WebUI.click(findTestObject('comment/Page_BRITA MAXTRA Yedek Su Filtresi - Altl Amazon.com.tr/a_Mteri yorumu yazn'))
+
+WebUI.setText(findTestObject('comment/SignIn/input_E-posta adresi veya telefon numaras_email'), 'serhan-ediz@hotmail.com')
+
+WebUI.setEncryptedText(findTestObject('comment/SignIn/input_ifremi unuttum_password'), 'CDPLGu8eTw6JheauVworMA==')
+
+WebUI.click(findTestObject('comment/SignIn/input_ifrenizi girin_signInSubmit'))
 

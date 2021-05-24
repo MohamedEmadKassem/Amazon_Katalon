@@ -17,17 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://www.amazon.com.tr/')
 
-WebUI.navigateToUrl('https://www.amazon.com.tr/')
+WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('order address/main page/cookies'))
 
 WebUI.verifyTextPresent('Teslimat adresini', false)
 
 WebUI.click(findTestObject('order address/main page/span_Teslimat adresini sein'))
-
-WebUI.delay(0)
 
 WebUI.click(findTestObject('order address/main page/input_Teslimat seenekleri ve hz, teslimat adresine bal olarak deiiklik gsterebilir._a-button-input'))
 
@@ -40,6 +38,4 @@ WebUI.setText(findTestObject('order address/Page_Amazon Giri Yap/Page_Amazon Gir
 WebUI.click(findTestObject('order address/Page_Amazon Giri Yap/Page_Amazon Giri Yap/input_ifrenizi girin_signInSubmit'))
 
 WebUI.verifyTextPresent('Ali', false)
-
-WebUI.closeBrowser()
 

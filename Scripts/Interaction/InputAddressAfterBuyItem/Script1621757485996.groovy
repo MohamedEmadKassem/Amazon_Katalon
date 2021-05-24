@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://www.amazon.com.tr/')
 
-WebUI.navigateToUrl('https://www.amazon.com.tr/')
+WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Interaction/InputAddressAfterBuyItem/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/input_Ne yazk ki erez tercihleriniz kaydedi_db1643'))
 
@@ -28,8 +28,6 @@ WebUI.click(findTestObject('Interaction/InputAddressAfterBuyItem/Page_Amazon.com
 WebUI.verifyLinksAccessible(['https://www.amazon.com.tr/gp/bestsellers?ref_=nav_cs_bestsellers_6bce5169359d4ca5bc88df01d2a80d70'])
 
 WebUI.click(findTestObject('Interaction/InputAddressAfterBuyItem/Page_Amazon.com.tr ok Satanlar Amazondaki e_ae023c/div_Xiaomi Mi Body Composition Scale 2 Tart, Beyaz'))
-
-WebUI.delay(1)
 
 WebUI.click(findTestObject('Interaction/InputAddressAfterBuyItem/Page_Xiaomi Mi Body Composition Scale 2 Tar_10bf2f/input_Miktar_submit.buy-now'))
 
@@ -43,8 +41,6 @@ WebUI.setEncryptedText(findTestObject('Interaction/InputAddressAfterBuyItem/Page
 
 WebUI.click(findTestObject('Interaction/InputAddressAfterBuyItem/Page_Amazon Giri Yap/input_ifrenizi girin_signInSubmit'))
 
-WebUI.delay(1)
-
 WebUI.setText(findTestObject('Interaction/InputAddressAfterBuyItem/Page_Bu sipari iin teslimat adresi girin/input_Ad ve soyad_address-ui-widgets-enterA_32e6a7'), 
     'Ali Tunceli')
 
@@ -53,25 +49,17 @@ WebUI.setText(findTestObject('Interaction/InputAddressAfterBuyItem/Page_Bu sipar
 
 WebUI.click(findTestObject('Interaction/InputAddressAfterBuyItem/Page_Bu sipari iin teslimat adresi girin/li_stanbul'))
 
-WebUI.delay(1)
-
 WebUI.setText(findTestObject('Interaction/InputAddressAfterBuyItem/Page_Bu sipari iin teslimat adresi girin/input_le_address-ui-widgets-enterAddressSta_f061f0'), 
     'Pendik')
 
 WebUI.click(findTestObject('Interaction/InputAddressAfterBuyItem/Page_Bu sipari iin teslimat adresi girin/li_Kartal'))
-
-WebUI.delay(1)
 
 WebUI.setText(findTestObject('Interaction/InputAddressAfterBuyItem/Page_Bu sipari iin teslimat adresi girin/input_Mahalle  Ky_address-ui-widgets-enterA_2acc43'), 
     'Yenişehir Mh.')
 
 WebUI.click(findTestObject('Interaction/InputAddressAfterBuyItem/Page_Bu sipari iin teslimat adresi girin/li_Kordonboyu Mh'))
 
-WebUI.delay(1)
-
 WebUI.click(findTestObject('Interaction/InputAddressAfterBuyItem/Page_Bu sipari iin teslimat adresi girin/div_Ltfen geerli bir ZIP veya posta kodu girin'))
-
-WebUI.delay(1)
 
 WebUI.setText(findTestObject('Interaction/InputAddressAfterBuyItem/Page_Bu sipari iin teslimat adresi girin/input_Adres satr 1_address-ui-widgets-enter_78ffed'), 
     'Yenişehir mah dedepaşa cad')
