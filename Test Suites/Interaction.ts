@@ -12,57 +12,69 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>5cdcb84a-9751-4b20-adf5-522e01aef874</testSuiteGuid>
    <testCaseLink>
-      <guid>6e68f44b-a0c1-4810-8ef0-11803a948ca3</guid>
+      <guid>ae8674f9-e788-4cc1-89f0-7d5f62dc2cfa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Interaction/Buy Item And Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c690f35b-c02e-4370-8f66-e2e639a11467</guid>
+      <guid>7c5c708e-3a3c-468e-a176-69a2c5c5f37b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Interaction/Buy Item And Login</testCaseId>
+      <testCaseId>Test Cases/Interaction/InputAddressAfterBuyItem</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>44d13831-7aa7-4507-8f0c-c70c8cd6787a</guid>
+      <guid>a3bffca8-69c8-4a28-baa2-58e25553f742</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Interaction/CreateNewShoppingList</testCaseId>
+      <testCaseId>Test Cases/Interaction/Order Address</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>9d4f5656-fefe-4e4c-a713-afd7f961ac54</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Interaction/CreateNewShoppingList</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>9964c7b1-8f19-428e-88de-f11174172733</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Interaction/Login and Display Orders</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>5a2fbf84-37e2-412c-8990-4da3cad67429</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Interaction/Login and Display Orders</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>9c9c3ed8-d223-45ce-a54b-76b7da0aed84</guid>
+      <guid>1267d1c4-f690-4076-98ea-fdc86bf9a663</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Interaction/Register</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c4d17557-a4f4-42a1-963c-b7bf7ecc4c5e</guid>
+      <guid>3835d417-b8fc-44ff-9d54-da2552a7c236</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Interaction/LoginAndLogout</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7974a378-956d-42a8-b5cb-7ee6935b1e22</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Interaction/SearchItemAndMinimum</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b4f5345d-5165-4640-b362-864c7372bb5b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Interaction/Login and Display Orders</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6a219c83-241c-443a-814c-9d0d137ce7fa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Interaction/BuyItemAndLogin(PressOnCart)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1bb938eb-ffb9-4a68-9109-c9d33e5b4429</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Interaction/Account Information control and some changes</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>eff1cf08-6ed2-44f4-bdbb-ee5e31cee09b</guid>
+      <guid>7bd9832d-a203-449f-839c-79d2b65315d5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Interaction/LoginAndLogout</testCaseId>
+      <testCaseId>Test Cases/Interaction/CreateNewShoppingList</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>aa2ea519-2001-4b1d-8b25-ce14eaf664a4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Interaction/Comment</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
