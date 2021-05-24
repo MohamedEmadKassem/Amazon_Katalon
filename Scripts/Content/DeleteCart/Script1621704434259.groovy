@@ -30,12 +30,9 @@ WebUI.setText(findTestObject('Content/DeleteCart/Page_Amazon Giri Yap/input_E-po
 
 WebUI.click(findTestObject('Content/DeleteCart/Page_Amazon Giri Yap/input_E-posta adresinizi veya cep telefonu _e246cd'))
 
-WebUI.setEncryptedText(findTestObject('Content/DeleteCart/Page_Amazon Giri Yap/input_ifremi unuttum_password'), 
-    'yYCHQKrnkaEeSW8wnmcRVA==')
+WebUI.setEncryptedText(findTestObject('Content/DeleteCart/Page_Amazon Giri Yap/input_ifremi unuttum_password'), 'yYCHQKrnkaEeSW8wnmcRVA==')
 
 WebUI.click(findTestObject('Content/DeleteCart/Page_Amazon Giri Yap/input_ifrenizi girin_signInSubmit'))
-
-WebUI.delay(1)
 
 WebUI.click(findTestObject('Content/DeleteCart/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/a_ok Satanlar'))
 
@@ -43,22 +40,12 @@ WebUI.verifyLinksAccessible(['https://www.amazon.com.tr/gp/bestsellers?ref_=nav_
 
 WebUI.click(findTestObject('Content/DeleteCart/Page_Amazon.com.tr ok Satanlar Amazondaki e_ae023c/div_Mutlu Olma Sanat'))
 
-WebUI.delay(1)
-
 WebUI.selectOptionByValue(findTestObject('Content/DeleteCart/Page_Mutlu Olma Sanat Arthur Schopenhauer, _abad14/select_123456789101112131415161718192021222_d181e2'), 
     '1', true)
 
-WebUI.delay(2)
-
 WebUI.click(findTestObject('Content/DeleteCart/Page_Mutlu Olma Sanat Arthur Schopenhauer, _abad14/input_Miktar_submit.add-to-cart'))
-
-WebUI.delay(1)
 
 WebUI.click(findTestObject('Content/DeleteCart/Page_Amazon.com.tr Alveri Sepeti/span_ve Sipariler_nav-cart-icon nav-sprite'))
 
 WebUI.click(findTestObject('Content/DeleteCart/Page_Amazon.com.tr Alveri Sepeti/input_Mutlu Olma Sanat_submit.delete.C76824_768be6'))
-
-WebUI.delay(2)
-
-WebUI.closeBrowser()
 

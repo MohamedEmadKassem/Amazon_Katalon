@@ -17,30 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://www.amazon.com.tr/')
 
-WebUI.navigateToUrl('https://www.amazon.com.tr/')
+WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Content/GiftCard/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/input_Ne yazk ki erez tercihleriniz kaydedi_db1643'))
 
 WebUI.click(findTestObject('Content/GiftCard/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/span_Hesap ve Listeler'))
 
-WebUI.setText(findTestObject('Content/GiftCard/Page_Amazon Giri Yap/input_E-posta adresi veya telefon numaras_email'), 
-    'mohamed.2.kassem95@gmail.com')
+WebUI.setText(findTestObject('Content/GiftCard/Page_Amazon Giri Yap/input_E-posta adresi veya telefon numaras_email'), 'mohamed.2.kassem95@gmail.com')
 
 WebUI.click(findTestObject('Content/GiftCard/Page_Amazon Giri Yap/input_E-posta adresinizi veya cep telefonu _e246cd'))
 
-WebUI.setEncryptedText(findTestObject('Content/GiftCard/Page_Amazon Giri Yap/input_ifremi unuttum_password'), 
-    'yYCHQKrnkaEeSW8wnmcRVA==')
+WebUI.setEncryptedText(findTestObject('Content/GiftCard/Page_Amazon Giri Yap/input_ifremi unuttum_password'), 'yYCHQKrnkaEeSW8wnmcRVA==')
 
 WebUI.click(findTestObject('Content/GiftCard/Page_Amazon Giri Yap/input_ifrenizi girin_signInSubmit'))
 
-WebUI.delay(1)
-
 WebUI.selectOptionByValue(findTestObject('Content/GiftCard/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/select_Tm Kategoriler        Bahe        Be_efad2d'), 
     'search-alias=gift-cards', true)
-
-WebUI.delay(1)
 
 WebUI.click(findTestObject('Content/GiftCard/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/input_Hediye Kartlar_nav-search-submit-button'))
 

@@ -25,16 +25,13 @@ WebUI.click(findTestObject('Content/History/Page_Amazon.com.tr Elektronik, bilgi
 
 WebUI.click(findTestObject('Content/History/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/span_Hesap ve Listeler'))
 
-WebUI.setText(findTestObject('Content/History/Page_Amazon Giri Yap/input_E-posta adresi veya telefon numaras_email'), 
-    'mohamed.2.kassem95@gmail.com')
+WebUI.setText(findTestObject('Content/History/Page_Amazon Giri Yap/input_E-posta adresi veya telefon numaras_email'), 'mohamed.2.kassem95@gmail.com')
 
 WebUI.click(findTestObject('Content/History/Page_Amazon Giri Yap/input_E-posta adresinizi veya cep telefonu _e246cd'))
 
 WebUI.setEncryptedText(findTestObject('Content/History/Page_Amazon Giri Yap/input_ifremi unuttum_password'), 'yYCHQKrnkaEeSW8wnmcRVA==')
 
 WebUI.click(findTestObject('Content/History/Page_Amazon Giri Yap/input_ifrenizi girin_signInSubmit'))
-
-WebUI.delay(1)
 
 WebUI.click(findTestObject('Content/History/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/a_ok Satanlar'))
 
@@ -44,12 +41,8 @@ WebUI.click(findTestObject('Content/History/Page_Amazon.com.tr ok Satanlar Amazo
 
 WebUI.click(findTestObject('Content/History/Page_Xiaomi Mi TV Stick 1080p Android TV Me_ed0d35/a_.com.tr'))
 
-WebUI.delay(1)
-
 WebUI.scrollToElement(findTestObject('Content/History/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/a_Grntleme gemiinize bakn'), 
     0)
-
-WebUI.delay(2)
 
 WebUI.click(findTestObject('Content/History/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/a_Grntleme gemiinize bakn'))
 

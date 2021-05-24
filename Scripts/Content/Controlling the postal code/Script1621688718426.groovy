@@ -28,19 +28,11 @@ WebUI.click(findTestObject('Content/Controlling the postal code/Page_Amazon.com.
 WebUI.setText(findTestObject('Content/Controlling the postal code/Page_Amazon.com.tr Amazon Prime Teslimat Ay_657992/input_Daha fazla bilgi_zipcodefield'), 
     '34912')
 
-WebUI.delay(1)
-
 WebUI.click(findTestObject('Content/Controlling the postal code/Page_Amazon.com.tr Amazon Prime Teslimat Ay_657992/input_Daha fazla bilgi_a-button-input'))
-
-WebUI.delay(1)
 
 WebUI.verifyTextPresent('Üzgünüz,', false)
 
-WebUI.delay(1)
-
 WebUI.verifyTextPresent('34912 Prime Aynı Gün Teslimat bölgesinde değil.', false)
-
-WebUI.delay(1)
 
 WebUI.closeBrowser()
 

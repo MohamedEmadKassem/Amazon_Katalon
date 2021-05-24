@@ -9,15 +9,15 @@
          <key>IMAGE</key>
       </entry>
       <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>id(&quot;nav-xshop&quot;)/a[@class=&quot;nav-a&quot;][count(. | //*[@href = '/gp/bestsellers?ref_=nav_cs_bestsellers_6bce5169359d4ca5bc88df01d2a80d70' and (text() = 'Çok Satanlar' or . = 'Çok Satanlar')]) = count(//*[@href = '/gp/bestsellers?ref_=nav_cs_bestsellers_6bce5169359d4ca5bc88df01d2a80d70' and (text() = 'Çok Satanlar' or . = 'Çok Satanlar')])]</value>
       </entry>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//li[.//a[contains(., 'Çok Satanlar')]]</value>
+         <value>//*[@id=&quot;nav-xshop&quot;]/a[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -17,25 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://www.amazon.com.tr/')
-
-WebUI.click(findTestObject('Content/EldayPage/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/input_Ne yazk ki erez tercihleriniz kaydedi_db1643'))
-
-WebUI.click(findTestObject('Content/EldayPage/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/a_Geri Dnm'))
-
-WebUI.verifyTextPresent('Elektrikli ve Elektronik Ekipman', true)
-
-WebUI.verifyTextPresent('Piller', false)
-
-WebUI.verifyTextPresent('Ambalajlar', false)
-
-WebUI.verifyTextPresent('Ampuller', false)
-
-WebUI.click(findTestObject('Content/EldayPage/Page_Amazon.com.tr Geri Dnm/img'))
-
-WebUI.verifyLinksAccessible(['https://elday.org/'])
-
-WebUI.closeBrowser()
-

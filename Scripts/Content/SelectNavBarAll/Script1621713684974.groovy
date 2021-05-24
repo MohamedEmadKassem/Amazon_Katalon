@@ -25,11 +25,7 @@ WebUI.click(findTestObject('Object Repository/Content/SelectNavBarAll/Page_Amazo
 
 WebUI.click(findTestObject('Object Repository/Content/SelectNavBarAll/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/i_ye olun._hm-icon nav-sprite'))
 
-WebUI.delay(1)
-
 WebUI.click(findTestObject('Object Repository/Content/SelectNavBarAll/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/a_Bahe'))
-
-WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Content/SelectNavBarAll/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/a_Bitkiler, Tohumlar ve Soanlar'))
 

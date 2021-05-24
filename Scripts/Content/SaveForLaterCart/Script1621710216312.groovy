@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://www.amazon.com.tr/')
 
-WebUI.navigateToUrl('https://www.amazon.com.tr/')
+WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Content/SaveForLaterCart/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/span_Hesap ve Listeler'))
 
@@ -28,39 +28,22 @@ WebUI.setText(findTestObject('Content/SaveForLaterCart/Page_Amazon Giri Yap/inpu
 
 WebUI.click(findTestObject('Content/SaveForLaterCart/Page_Amazon Giri Yap/input_E-posta adresinizi veya cep telefonu _e246cd'))
 
-WebUI.setEncryptedText(findTestObject('Content/SaveForLaterCart/Page_Amazon Giri Yap/input_ifremi unuttum_password'), 
-    'yYCHQKrnkaEeSW8wnmcRVA==')
+WebUI.setEncryptedText(findTestObject('Content/SaveForLaterCart/Page_Amazon Giri Yap/input_ifremi unuttum_password'), 'yYCHQKrnkaEeSW8wnmcRVA==')
 
 WebUI.click(findTestObject('Content/SaveForLaterCart/Page_Amazon Giri Yap/input_ifrenizi girin_signInSubmit'))
 
-WebUI.delay(1)
-
 WebUI.click(findTestObject('Content/SaveForLaterCart/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/a_ok Satanlar'))
 
-WebUI.getAllLinksOnCurrentPage(false, [])
-
-WebUI.verifyLinksAccessible(['https://www.amazon.com.tr/gp/bestsellers?ref_=nav_cs_bestsellers_6bce5169359d4ca5bc88df01d2a80d70'])
-
 WebUI.click(findTestObject('Content/SaveForLaterCart/Page_Amazon.com.tr ok Satanlar Amazondaki e_ae023c/div_BRITA MAXTRA Yedek Su Filtresi - Altl'))
-
-WebUI.delay(1)
 
 WebUI.selectOptionByValue(findTestObject('Content/SaveForLaterCart/Page_BRITA MAXTRA Yedek Su Filtresi - Altl _643b8f/select_123456789101112131415'), 
     '1', true)
 
-WebUI.delay(2)
-
 WebUI.click(findTestObject('Content/SaveForLaterCart/Page_BRITA MAXTRA Yedek Su Filtresi - Altl _643b8f/input_Miktar_submit.add-to-cart'))
-
-WebUI.delay(1)
 
 WebUI.click(findTestObject('Content/DeleteCart/Page_Amazon.com.tr Alveri Sepeti/span_ve Sipariler_nav-cart-icon nav-sprite'))
 
 WebUI.verifyTextPresent('Daha sonrası için kaydedildi', false)
 
 WebUI.click(findTestObject('Content/SaveForLaterCart/Page_Amazon.com.tr Alveri Sepeti/input_BRITA MAXTRA Yedek Su Filtresi - Altl_74ebc0'))
-
-WebUI.delay(1)
-
-WebUI.closeBrowser()
 

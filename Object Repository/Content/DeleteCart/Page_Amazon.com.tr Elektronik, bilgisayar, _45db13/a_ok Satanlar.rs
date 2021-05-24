@@ -10,7 +10,10 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//li[.//a[contains(., 'Çok Satanlar')]]</value>
+         <value>
+//*[@id=&quot;nav-xshop&quot;]/a[1]
+
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -17,31 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://www.amazon.com.tr/')
 
-WebUI.navigateToUrl('https://www.amazon.com.tr/')
+WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Content/Quantity/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/input_Ne yazk ki erez tercihleriniz kaydedi_db1643'))
 
 WebUI.click(findTestObject('Content/Quantity/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/span_Hesap ve Listeler'))
 
-WebUI.setText(findTestObject('Content/Quantity/Page_Amazon Giri Yap/input_E-posta adresi veya telefon numaras_email'), 
-    'mohamed.2.kassem95@gmail.com')
+WebUI.setText(findTestObject('Content/Quantity/Page_Amazon Giri Yap/input_E-posta adresi veya telefon numaras_email'), 'mohamed.2.kassem95@gmail.com')
 
 WebUI.click(findTestObject('Content/Quantity/Page_Amazon Giri Yap/input_E-posta adresinizi veya cep telefonu _e246cd'))
 
-WebUI.setEncryptedText(findTestObject('Content/Quantity/Page_Amazon Giri Yap/input_ifremi unuttum_password'), 
-    'yYCHQKrnkaEeSW8wnmcRVA==')
+WebUI.setEncryptedText(findTestObject('Content/Quantity/Page_Amazon Giri Yap/input_ifremi unuttum_password'), 'yYCHQKrnkaEeSW8wnmcRVA==')
 
 WebUI.click(findTestObject('Content/Quantity/Page_Amazon Giri Yap/input_ifrenizi girin_signInSubmit'))
-
-WebUI.delay(1)
 
 WebUI.click(findTestObject('Content/Quantity/Page_Amazon.com.tr Elektronik, bilgisayar, _45db13/a_ok Satanlar'))
 
 WebUI.click(findTestObject('Content/Quantity/Page_Amazon.com.tr ok Satanlar Amazondaki e_ae023c/div_Mutlu Olma Sanat'))
-
-WebUI.delay(1)
 
 WebUI.selectOptionByValue(findTestObject('Content/Quantity/Page_Mutlu Olma Sanat Arthur Schopenhauer, _abad14/select_123456789101112131415161718192021222_d181e2'), 
     '1', true)
